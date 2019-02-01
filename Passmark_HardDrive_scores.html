@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://www.harddrivebenchmark.net/common_drives.html -->
+<html><!-- Hard Drive Benchmark data copyrighted by Passmark Software. Do not copy these charts or the information they contain --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>PassMark Software - Hard Drive Benchmark Charts</title>
+<meta name="DESCRIPTION" content="Hard Drive Benchmarks - Over 350,000 Hard Drives and 2,200 types benchmarked and compared in graph form - This chart compares hard disk drives whose performance is considered to be in the middle of the range of benchmarks.">
+<meta name="KEYWORDS" content="Hard, Drive, HDD, RPM, chart, graph, compare, comparison, comparing, test, benchmark, software, mid, performance, PC, computer, program, speed, testing, hardware, benchmarking, Seagate, Western Digital, Maxtor, Hitachi, review">
+<link rel="stylesheet" href="./PassMark Software - Hard Drive Benchmark Charts_files/passmark.css" type="text/css">
+<link rel="stylesheet" href="./PassMark Software - Hard Drive Benchmark Charts_files/tabnav.css" type="text/css">
+<link rel="stylesheet" href="./PassMark Software - Hard Drive Benchmark Charts_files/dropdown.css" type="text/css">
+
+<link rel="stylesheet" href="./PassMark Software - Hard Drive Benchmark Charts_files/chart.css" type="text/css">
+<link rel="stylesheet" href="./PassMark Software - Hard Drive Benchmark Charts_files/tooltip_hd.css" type="text/css">
+<script language="JavaScript" src="./PassMark Software - Hard Drive Benchmark Charts_files/tooltip_hd.js.download" type="text/javascript"></script>
+
+</head>
+<body>
+<center>
+  <!--ZOOMSTOP-->
+<script src="./PassMark Software - Hard Drive Benchmark Charts_files/jquery-3.3.1.min.js.download"></script>
+<script type="text/javascript" src="./PassMark Software - Hard Drive Benchmark Charts_files/dropdown.js.download"></script>
+<div id="header_pm">
+  <table style="width:100%;" class="header_pm">
+    <tbody><tr>
+      <td class="header_pm" style="text-align: left; vertical-align:top; width:170px;">
+      	<a href="https://www.passmark.com/index.html"><img src="./PassMark Software - Hard Drive Benchmark Charts_files/Passmark_logo3.gif" width="170" height="49" style="border:0;" alt="PassMark Software"></a>
+      </td>
+      <td style="text-align:right; vertical-align:top;" class="header_pm">
+      	<table style="width:100%; border-collapse: collapse;" class="header_pm">
+					<tbody><tr>
+						<td style="text-align:right; vertical-align:middle; width:400px;" class="header_pm">
+						</td>
+						<td>
+						<div id="passmark_search">
+							<form name="searchform" method="get" action="https://www.passmark.com/search/zoomsearch.php">
+	    	    		<input type="text" name="zoom_query" id="passmark_search_form"><input type="image" src="./PassMark Software - Hard Drive Benchmark Charts_files/newsearch.png" height="24" width="24" alt="Search" name="search" id="passmark_search_button">
+    	    		</form>
+        		</div>
+    	    	</td>
+      	  </tr>
+      	</tbody></table>
+      </td>
+    </tr>
+  </tbody></table>
+  <div id="navbar_pm">
+    <ul>
+      <li class="btn"><a href="https://www.passmark.com/index.html" class="navbar_pm">Home</a></li>
+      <li class="dropdown">
+      	<button onclick="openSoftwareDropdown()" onmouseover="openSoftwareDropdown()" class="dropbtn" id="software_dropbtn">Software</button>
+      	<div id="software_dropdown" class="dropdown-content">
+				  <a class="droplink software_droplink_class" href="https://www.passmark.com/products/bit.htm">BurnInTest</a>
+				  <a class="droplink software_droplink_class" href="https://www.passmark.com/products/pt.htm">PerformanceTest</a>
+				  <a class="droplink software_droplink_class" href="https://www.osforensics.com/">OSForensics</a>
+				  <a class="droplink software_droplink_class" href="https://www.memtest86.com/">MemTest86</a>
+				  <a class="droplink software_droplink_class" href="https://www.passmark.com/products/wirelessmonitor.htm">WirelessMon</a>
+				  <a class="droplink software_droplink_class" href="https://www.passmark.com/products/index.htm">All Software</a>
+  	  	</div>
+  	  </li>
+  	  <li class="dropdown">
+      	<button onclick="openHardwareDropdown()" onmouseover="openHardwareDropdown()" class="dropbtn" id="hardware_dropbtn">Hardware</button>
+      	<div id="hardware_dropdown" class="dropdown-content">
+			    <a class="droplink hardware_droplink_class" href="https://www.passmark.com/products/usb3loopback.htm">USB3.0 Loopback Plugs</a>
+			    <a class="droplink hardware_droplink_class" href="https://www.passmark.com/products/usb2loopback.htm">USB2.0 Loopback Plugs</a>
+			    <a class="droplink hardware_droplink_class" href="https://www.passmark.com/products/pcie-test-card.htm">PCIe Test Cards</a>
+			    <a class="droplink hardware_droplink_class" href="https://www.passmark.com/products/loopback.htm">Serial and Parallel Loopback Plugs</a>
+			    <a class="droplink hardware_droplink_class" href="https://www.passmark.com/products/pc-test-kit.htm">PC Test Kit</a>
+			    <a class="droplink hardware_droplink_class" href="https://www.passmark.com/products/hardware.htm">All Hardware</a>
+	      </div>
+	    </li>
+	    <li class="dropdown">
+    		<button onclick="openBenchmarksDropdown()" onmouseover="openBenchmarksDropdown()" class="dropbtn" id="benchmarks_dropbtn">Benchmarks</button>
+  			<div id="benchmarks_dropdown" class="dropdown-content" style="display: none;">
+	  			<a class="droplink benchmarks_droplink_class" href="https://www.cpubenchmark.net/">CPU Benchmarks</a>
+			    <a class="droplink benchmarks_droplink_class" href="https://www.videocardbenchmark.net/">Video Card Benchmarks</a>
+			    <a class="droplink benchmarks_droplink_class" href="https://www.harddrivebenchmark.net/">Hard Drive Benchmarks</a>
+			    <a class="droplink benchmarks_droplink_class" href="https://www.memorybenchmark.net/">RAM Benchmarks</a>
+			    <a class="droplink benchmarks_droplink_class" href="https://www.pcbenchmarks.net/">PC Systems Benchmarks</a>
+			    <a class="droplink benchmarks_droplink_class" href="https://www.androidbenchmark.net/">Android Benchmarks</a>
+			    <a class="droplink benchmarks_droplink_class" href="https://www.iphonebenchmark.net/">iOS / iPhone Benchmarks</a>
+      	</div>
+      </li>
+      <li class="btn"><a href="https://www.passmark.com/services/index.htm" class="navbar_pm">Services</a></li>
+			<li class="btn"><a href="https://www.passmark.com/sales/index.php" class="navbar_pm">Store</a></li>
+      <li class="btn"><a href="https://www.passmark.com/support/index.htm" class="navbar_pm">Support</a></li>
+      <li class="btn"><a href="https://www.passmark.com/forum/index.php" class="navbar_pm">Forums</a></li>
+	    <li class="dropdown">
+	    	<button onclick="openAboutDropdown()" onmouseover="openAboutDropdown()" class="dropbtn" id="about_dropbtn">About Us</button>
+    		<div id="about_dropdown" class="dropdown-content">
+			    <a class="droplink about_droplink_class" href="https://www.passmark.com/about/index.htm">Company</a>
+			    <a class="droplink about_droplink_class" href="https://www.passmark.com/about/contact_us.htm">Contact Us</a>
+			    <a class="droplink about_droplink_class" href="https://www.passmark.com/press/index.htm">The Press Room</a>
+			  </div>
+			</li>
+    </ul>
+  </div>
+</div>
+<!--ZOOMRESTART-->  <div class="breadcrumbs"><a href="https://www.passmark.com/index.html">Home</a> » <a href="https://www.harddrivebenchmark.net/index.php">Hard Drive Benchmarks</a> » Common Hard Drives</div>
+  <div id="tabs">
+  <ul>
+    <li><a href="https://www.cpubenchmark.net/"><span class="othertab2"><span class="othertab">CPU Benchmarks</span></span></a></li>
+    <li><a href="https://www.videocardbenchmark.net/"><span class="othertab2"><span class="othertab">Video Card Benchmarks</span></span></a></li>
+    <li><a href="https://www.harddrivebenchmark.net/"><span class="currenttab2"><span class="currenttab">Hard Drive Benchmarks</span></span></a></li>
+    <li><a href="https://www.memorybenchmark.net/"><span class="othertab2"><span class="othertab">RAM</span></span></a></li>
+    <li><a href="https://www.pcbenchmarks.net/"><span class="othertab2"><span class="othertab">PC Systems</span></span></a></li>
+    <li><a href="https://www.androidbenchmark.net/"><span class="othertab2"><span class="othertab">Android</span></span></a></li>
+    <li><a href="https://www.iphonebenchmark.net/"><span class="othertab2"><span class="othertab">iOS / iPhone</span></span></a></li>
+  </ul>
+</div>
+  <div class="contentborder"><b class="rtop"><b class="r1"></b><b class="r2"></b><b class="r3"></b><b class="r4"></b></b></div>
+  <div class="content">
+    <table width="750" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+       	<td width="525">
+        	<div class="productheader" style="line-height:240%; margin-top:10px;">
+        		<img src="./PassMark Software - Hard Drive Benchmark Charts_files/HardDisk.jpg" style="float:right;" alt="New drive benchmarks uploaded daily" width="107" height="80">
+        		<span style="font-family: Arial,Helvetica,sans-serif; font-size: 280%; font-weight: 550; color:rgb(65,107,115);px;">
+        			Hard Drive Benchmarks
+        		</span>
+        		<br>
+        		<span style="font-family: Arial,Helvetica,sans-serif; font-size: 175%; font-weight: 150; color:rgb(187,205,207);">
+        			Over 1,000,000 Hard Drives Benchmarked
+        		</span>
+        	</div>
+	      </td>
+        <td width="225" rowspan="2" valign="top">
+					<div style="width:200px">
+
+<ul id="dropdown">
+	<li><span>----Select A Page ----<img src="./PassMark Software - Hard Drive Benchmark Charts_files/icon_download_small.png" style="float: right;" alt=""></span>
+		<ul style="max-height: 180px; height: 180px;">
+			<li><a href="https://www.harddrivebenchmark.net/index.php">Home</a></li>
+			<li>--- Drive Charts ---</li>
+			<li><a href="https://www.harddrivebenchmark.net/high_end_drives.html">High End Drives</a></li>
+			<li><a href="https://www.harddrivebenchmark.net/mid_range_drives.html">High Mid Range Drives</a></li>
+			<li><a href="https://www.harddrivebenchmark.net/low_mid_range_drives.html">Low Mid Range Drives</a></li>
+			<li><a href="https://www.harddrivebenchmark.net/low_end_drives.html">Low End Drives</a></li>
+			<li><a href="https://www.harddrivebenchmark.net/common_drives.html">Common Drives</a></li>
+			<li><a href="https://www.harddrivebenchmark.net/hdd_value.html">Best Value Drives</a></li>
+			<li><a href="https://www.harddrivebenchmark.net/ssd.html">Solid State Drives</a></li>
+			<li><a href="https://www.harddrivebenchmark.net/30dayshare.html">HDD Market Share 30 days</a></li>
+			<li>--- Other Information ---</li>
+			<li><a href="https://www.harddrivebenchmark.net/hdd_list.php">Searchable Drive list</a></li>
+			<li><a href="https://www.harddrivebenchmark.net/graph_notes.html">Graph Notes</a></li>
+			<li><a href="https://www.harddrivebenchmark.net/hddnaming.html">Drive Naming</a></li>
+		</ul>
+	</li>
+</ul>
+
+	        	<div align="center">
+	        		<a href="https://www.passmark.com/products/pt.htm"><img src="./PassMark Software - Hard Drive Benchmark Charts_files/pt_screenlogo2.png" alt="HDD benchmarks made using PerformanceTest v7,
+V8 and V9" width="119" height="94" border="0"><br><br>
+	            How does your<br>Hard Drive compare?</a><br>
+	            Add your HDD to our benchmark charts with <a href="https://www.passmark.com/products/pt.htm">PerformanceTest V9</a>!
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><h1>Common Hard Drive Chart (All-Time)</h1>
+          <p>This chart is made using thousands of <a href="https://www.passmark.com/products/pt.htm">PerformanceTest</a> benchmark results and is updated daily. These overall scores are calculated from three
+            different tests measuring the read speed, write speed and seek time of hard disk drives. The chart contains drives from many of the major manufacturers such as Seagate, Western Digital (WDC),
+            Hitachi, Maxtor and Samsung.</p></td>
+      </tr>
+    </tbody></table>
+    <p>
+      <script type="text/javascript"><!--
+    google_ad_client = "pub-3033133245606581";
+    /* HDD Benchmarks - Mid-Range, 728x90, Header */
+    google_ad_slot = "9887200171";
+    google_ad_width = 728;
+    google_ad_height = 90;
+    //-->
+    </script>
+      <script type="text/javascript" src="./PassMark Software - Hard Drive Benchmark Charts_files/f.txt">
+    </script>
+    </p>
+    <span id="tip" class="tooltip">Tooltip Description Place Holder</span>
+
+    <div style="text-align: center; font-family: Arial,Helvetica,sans-serif; font-size: 90%; font-weight: 110;">
+    <a onclick="flip( &#39;mark&#39;, &#39;value&#39; ); location.hash =&#39;&#39;; ">Disk Mark</a> |
+    <a onclick="flip( &#39;value&#39;, &#39;mark&#39; ); location.hash =&#39;value&#39;;">Price Performance</a><br>
+    <span style="font-size: 75%">(Click to select desired chart)</span>
+    </div>
+
+    <br>
+    <div id="mark">
+      <table class="chart" style="border:0px;border-collapse:collapse;">
+<caption class="chart" style="vertical-align:top">PassMark - Disk Rating<br>Common Drives - Updated 22nd of January 2019<br></caption>
+<tbody><tr><th class="chart" scope="col"><span class="auraltext">Drive</span></th>
+<th class="chart" scope="col"><span class="auraltext">Disk Rating</span></th>
+<th class="chart" scope="col"><span>Price (USD)</span></th></tr>
+<tr><td id="rk15854" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20970%20EVO%20500GB&amp;id=15854">Samsung SSD 970 EVO 500GB</a></td>
+<td id="rt15854" class="value"><div class="meter pink"><span style="width: 86%" onmouseout="HTAD()" onmouseover="STAD(event,1,2601,&#39;465.8 GB&#39;)"></span>21,704</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20970%20EVO%20500GB&amp;id=15854#price">$129.90</a></td></tr>
+<tr><td id="rk12871" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20960%20PRO%20512GB&amp;id=12871">Samsung SSD 960 PRO 512GB</a></td>
+<td id="rt12871" class="value"><div class="meter yellow"><span style="width: 70%" onmouseout="HTAD()" onmouseover="STAD(event,2,2392,&#39;476.9 GB&#39;)"></span>17,624</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20960%20PRO%20512GB&amp;id=12871#price">$204.99</a></td></tr>
+<tr><td id="rk15887" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20970%20EVO%20250GB&amp;id=15887">Samsung SSD 970 EVO 250GB</a></td>
+<td id="rt15887" class="value"><div class="meter green"><span style="width: 64%" onmouseout="HTAD()" onmouseover="STAD(event,3,1793,&#39;232.9 GB&#39;)"></span>16,063</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20970%20EVO%20250GB&amp;id=15887#price">$89.99</a></td></tr>
+<tr><td id="rk18501" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=NVMe%20Samsung%20SSD%20960&amp;id=18501">NVMe Samsung SSD 960</a></td>
+<td id="rt18501" class="value"><div class="meter light-purple"><span style="width: 60%" onmouseout="HTAD()" onmouseover="STAD(event,4,2917,&#39;476.9 GB&#39;)"></span>14,988</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=NVMe%20Samsung%20SSD%20960&amp;id=18501#price">NA</a></td></tr>
+<tr><td id="rk13235" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20960%20EVO%20500GB&amp;id=13235">Samsung SSD 960 EVO 500GB</a></td>
+<td id="rt13235" class="value"><div class="meter red"><span style="width: 59%" onmouseout="HTAD()" onmouseover="STAD(event,5,4171,&#39;465.8 GB&#39;)"></span>14,773</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20960%20EVO%20500GB&amp;id=13235#price">$134.89</a></td></tr>
+<tr><td id="rk12734" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20PM961%20256GB%20NVMe&amp;id=12734">Samsung PM961 256GB NVMe</a></td>
+<td id="rt12734" class="value"><div class="meter turquoise"><span style="width: 58%" onmouseout="HTAD()" onmouseover="STAD(event,6,2481,&#39;238.5 GB&#39;)"></span>14,660</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20PM961%20256GB%20NVMe&amp;id=12734#price">$49.00</a></td></tr>
+<tr><td id="rk13210" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20960%20EVO%20250GB&amp;id=13210">Samsung SSD 960 EVO 250GB</a></td>
+<td id="rt13210" class="value"><div class="meter orange"><span style="width: 53%" onmouseout="HTAD()" onmouseover="STAD(event,7,6364,&#39;232.9 GB&#39;)"></span>13,397</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20960%20EVO%20250GB&amp;id=13210#price">$119.98</a></td></tr>
+<tr><td id="rk20103" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=NVMe%20Samsung%20SSD%20950&amp;id=20103">NVMe Samsung SSD 950</a></td>
+<td id="rt20103" class="value"><div class="meter brown"><span style="width: 51%" onmouseout="HTAD()" onmouseover="STAD(event,8,2983,&#39;476.9 GB&#39;)"></span>12,885</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=NVMe%20Samsung%20SSD%20950&amp;id=20103#price">NA</a></td></tr>
+<tr><td id="rk10708" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20950%20Pro%20256GB%20NVMe&amp;id=10708">Samsung SSD 950 Pro 256GB NVMe</a></td>
+<td id="rt10708" class="value"><div class="meter purple"><span style="width: 42%" onmouseout="HTAD()" onmouseover="STAD(event,9,3394,&#39;238.5 GB&#39;)"></span>10,659</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20950%20Pro%20256GB%20NVMe&amp;id=10708#price">$174.99</a></td></tr>
+<tr><td id="rk15379" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20860%20EVO%20500GB&amp;id=15379">Samsung SSD 860 EVO 500GB</a></td>
+<td id="rt15379" class="value"><div class="meter blue"><span style="width: 18%" onmouseout="HTAD()" onmouseover="STAD(event,10,1872,&#39;465.8 GB&#39;)"></span>4,556</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20860%20EVO%20500GB&amp;id=15379#price">$84.94</a></td></tr>
+<tr><td id="rk8822" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%201TB&amp;id=8822">Samsung SSD 850 EVO 1TB</a></td>
+<td id="rt8822" class="value"><div class="meter pink"><span style="width: 17%" onmouseout="HTAD()" onmouseover="STAD(event,11,2755,&#39;931.5 GB&#39;)"></span>4,475</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%201TB&amp;id=8822#price">$249.95</a></td></tr>
+<tr><td id="rk8742" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%20500GB&amp;id=8742">Samsung SSD 850 EVO 500GB</a></td>
+<td id="rt8742" class="value"><div class="meter yellow"><span style="width: 17%" onmouseout="HTAD()" onmouseover="STAD(event,12,16818,&#39;465.8 GB&#39;)"></span>4,373</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%20500GB&amp;id=8742#price">$99.99</a></td></tr>
+<tr><td id="rk8065" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20PRO%20512GB&amp;id=8065">Samsung SSD 850 PRO 512GB</a></td>
+<td id="rt8065" class="value"><div class="meter green"><span style="width: 17%" onmouseout="HTAD()" onmouseover="STAD(event,13,2676,&#39;476.9 GB&#39;)"></span>4,347</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20PRO%20512GB&amp;id=8065#price">$199.99</a></td></tr>
+<tr><td id="rk7818" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20PRO%20256GB&amp;id=7818">Samsung SSD 850 PRO 256GB</a></td>
+<td id="rt7818" class="value"><div class="meter light-purple"><span style="width: 16%" onmouseout="HTAD()" onmouseover="STAD(event,14,5247,&#39;238.5 GB&#39;)"></span>4,226</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20PRO%20256GB&amp;id=7818#price">$149.25</a></td></tr>
+<tr><td id="rk8747" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%20250GB&amp;id=8747">Samsung SSD 850 EVO 250GB</a></td>
+<td id="rt8747" class="value"><div class="meter red"><span style="width: 16%" onmouseout="HTAD()" onmouseover="STAD(event,15,24824,&#39;232.9 GB&#39;)"></span>4,172</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%20250GB&amp;id=8747#price">$47.99</a></td></tr>
+<tr><td id="rk5529" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20EVO%20500GB&amp;id=5529">Samsung SSD 840 EVO 500GB</a></td>
+<td id="rt5529" class="value"><div class="meter turquoise"><span style="width: 16%" onmouseout="HTAD()" onmouseover="STAD(event,16,4131,&#39;465.8 GB&#39;)"></span>4,058</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20EVO%20500GB&amp;id=5529#price">$149.99</a></td></tr>
+<tr><td id="rk8780" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%20120GB&amp;id=8780">Samsung SSD 850 EVO 120GB</a></td>
+<td id="rt8780" class="value"><div class="meter orange"><span style="width: 16%" onmouseout="HTAD()" onmouseover="STAD(event,17,4359,&#39;111.8 GB&#39;)"></span>4,029</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%20120GB&amp;id=8780#price">$69.95</a></td></tr>
+<tr><td id="rk11694" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20750%20EVO%20250GB&amp;id=11694">Samsung SSD 750 EVO 250GB</a></td>
+<td id="rt11694" class="value"><div class="meter brown"><span style="width: 15%" onmouseout="HTAD()" onmouseover="STAD(event,18,1803,&#39;232.9 GB&#39;)"></span>3,962</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20750%20EVO%20250GB&amp;id=11694#price">$199.99</a></td></tr>
+<tr><td id="rk12503" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT525MX300SSD1&amp;id=12503">Crucial CT525MX300SSD1</a></td>
+<td id="rt12503" class="value"><div class="meter purple"><span style="width: 15%" onmouseout="HTAD()" onmouseover="STAD(event,19,1779,&#39;489 GB&#39;)"></span>3,925</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT525MX300SSD1&amp;id=12503#price">$118.69</a></td></tr>
+<tr><td id="rk5448" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20EVO%20250GB&amp;id=5448">Samsung SSD 840 EVO 250GB</a></td>
+<td id="rt5448" class="value"><div class="meter blue"><span style="width: 15%" onmouseout="HTAD()" onmouseover="STAD(event,20,15180,&#39;232.9 GB&#39;)"></span>3,880</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20EVO%20250GB&amp;id=5448#price">$239.89</a></td></tr>
+<tr><td id="rk2" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=OCZ%20Vertex%204%20256GB&amp;id=2">OCZ Vertex 4 256GB</a></td>
+<td id="rt2" class="value"><div class="meter pink"><span style="width: 14%" onmouseout="HTAD()" onmouseover="STAD(event,21,2106,&#39;238.5 GB&#39;)"></span>3,658</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=OCZ%20Vertex%204%20256GB&amp;id=2#price">$214.99*</a></td></tr>
+<tr><td id="rk423" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Kingston%20HyperX%203K%20240GB%20SH103S3240G&amp;id=423">Kingston HyperX 3K 240GB SH103S3240G</a></td>
+<td id="rt423" class="value"><div class="meter yellow"><span style="width: 14%" onmouseout="HTAD()" onmouseover="STAD(event,22,2528,&#39;223.6 GB&#39;)"></span>3,656</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Kingston%20HyperX%203K%20240GB%20SH103S3240G&amp;id=423#price">$194.99*</a></td></tr>
+<tr><td id="rk5470" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20EVO%20120GB&amp;id=5470">Samsung SSD 840 EVO 120GB</a></td>
+<td id="rt5470" class="value"><div class="meter green"><span style="width: 14%" onmouseout="HTAD()" onmouseover="STAD(event,23,10241,&#39;111.8 GB&#39;)"></span>3,608</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20EVO%20120GB&amp;id=5470#price">$99.99</a></td></tr>
+<tr><td id="rk12134" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SUV400S37240G&amp;id=12134">KINGSTON SUV400S37240G</a></td>
+<td id="rt12134" class="value"><div class="meter light-purple"><span style="width: 14%" onmouseout="HTAD()" onmouseover="STAD(event,24,2527,&#39;223.6 GB&#39;)"></span>3,569</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SUV400S37240G&amp;id=12134#price">NA</a></td></tr>
+<tr><td id="rk258" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Corsair%20Force%20GS&amp;id=258">Corsair Force GS</a></td>
+<td id="rt258" class="value"><div class="meter red"><span style="width: 13%" onmouseout="HTAD()" onmouseover="STAD(event,25,1995,&#39;223.6 GB&#39;)"></span>3,414</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Corsair%20Force%20GS&amp;id=258#price">$415.98*</a></td></tr>
+<tr><td id="rk8998" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Cruicial%20CT250BX100SSD1&amp;id=8998">Cruicial CT250BX100SSD1</a></td>
+<td id="rt8998" class="value"><div class="meter turquoise"><span style="width: 13%" onmouseout="HTAD()" onmouseover="STAD(event,26,1769,&#39;232.9 GB&#39;)"></span>3,375</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Cruicial%20CT250BX100SSD1&amp;id=8998#price">$94.99*</a></td></tr>
+<tr><td id="rk7575" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT512MX100SSD1&amp;id=7575">Crucial CT512MX100SSD1</a></td>
+<td id="rt7575" class="value"><div class="meter orange"><span style="width: 13%" onmouseout="HTAD()" onmouseover="STAD(event,27,2248,&#39;476.9 GB&#39;)"></span>3,367</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT512MX100SSD1&amp;id=7575#price">$179.99</a></td></tr>
+<tr><td id="rk17403" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20PRO%20Series&amp;id=17403">Samsung SSD 840 PRO Series</a></td>
+<td id="rt17403" class="value"><div class="meter brown"><span style="width: 13%" onmouseout="HTAD()" onmouseover="STAD(event,28,4110,&#39;119.2 GB&#39;)"></span>3,343</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20PRO%20Series&amp;id=17403#price">NA</a></td></tr>
+<tr><td id="rk230" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Kingston%20HyperX%203K%20120GB%20SH103S3120G&amp;id=230">Kingston HyperX 3K 120GB SH103S3120G</a></td>
+<td id="rt230" class="value"><div class="meter purple"><span style="width: 12%" onmouseout="HTAD()" onmouseover="STAD(event,29,5986,&#39;111.8 GB&#39;)"></span>3,145</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Kingston%20HyperX%203K%20120GB%20SH103S3120G&amp;id=230#price">$119.98*</a></td></tr>
+<tr><td id="rk3962" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SV300S37A240G&amp;id=3962">KINGSTON SV300S37A240G</a></td>
+<td id="rt3962" class="value"><div class="meter blue"><span style="width: 12%" onmouseout="HTAD()" onmouseover="STAD(event,30,7285,&#39;223.6 GB&#39;)"></span>3,138</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SV300S37A240G&amp;id=3962#price">NA</a></td></tr>
+<tr><td id="rk12142" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SUV400S37120G&amp;id=12142">KINGSTON SUV400S37120G</a></td>
+<td id="rt12142" class="value"><div class="meter pink"><span style="width: 12%" onmouseout="HTAD()" onmouseover="STAD(event,31,2126,&#39;111.8 GB&#39;)"></span>3,126</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SUV400S37120G&amp;id=12142#price">NA</a></td></tr>
+<tr><td id="rk757" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Intel%20SSD%20520%20120GB%20SSDSC2CW120A3&amp;id=757">Intel SSD 520 120GB SSDSC2CW120A3</a></td>
+<td id="rt757" class="value"><div class="meter yellow"><span style="width: 12%" onmouseout="HTAD()" onmouseover="STAD(event,32,2089,&#39;111.8 GB&#39;)"></span>3,062</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Intel%20SSD%20520%20120GB%20SSDSC2CW120A3&amp;id=757#price">$75.71</a></td></tr>
+<tr><td id="rk18" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Corsair%20Force%20GT&amp;id=18">Corsair Force GT</a></td>
+<td id="rt18" class="value"><div class="meter green"><span style="width: 12%" onmouseout="HTAD()" onmouseover="STAD(event,33,3499,&#39;111.8 GB&#39;)"></span>3,060</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Corsair%20Force%20GT&amp;id=18#price">$88.87*</a></td></tr>
+<tr><td id="rk16949" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SAMSUNG%20SSD%20830%20Series&amp;id=16949">SAMSUNG SSD 830 Series</a></td>
+<td id="rt16949" class="value"><div class="meter light-purple"><span style="width: 12%" onmouseout="HTAD()" onmouseover="STAD(event,34,7236,&#39;238.5 GB&#39;)"></span>3,033</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SAMSUNG%20SSD%20830%20Series&amp;id=16949#price">NA</a></td></tr>
+<tr><td id="rk7532" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT256MX100SSD1&amp;id=7532">Crucial CT256MX100SSD1</a></td>
+<td id="rt7532" class="value"><div class="meter red"><span style="width: 11%" onmouseout="HTAD()" onmouseover="STAD(event,35,4092,&#39;238.5 GB&#39;)"></span>2,901</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT256MX100SSD1&amp;id=7532#price">$99.99</a></td></tr>
+<tr><td id="rk9194" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SanDisk%20SDSSDA240G&amp;id=9194">SanDisk SDSSDA240G</a></td>
+<td id="rt9194" class="value"><div class="meter turquoise"><span style="width: 11%" onmouseout="HTAD()" onmouseover="STAD(event,36,4709,&#39;223.6 GB&#39;)"></span>2,875</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SanDisk%20SDSSDA240G&amp;id=9194#price">NA</a></td></tr>
+<tr><td id="rk4861" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT240M500SSD1&amp;id=4861">Crucial CT240M500SSD1</a></td>
+<td id="rt4861" class="value"><div class="meter orange"><span style="width: 10%" onmouseout="HTAD()" onmouseover="STAD(event,37,3198,&#39;223.6 GB&#39;)"></span>2,711</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT240M500SSD1&amp;id=4861#price">$74.88</a></td></tr>
+<tr><td id="rk7789" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SHFS37A120G&amp;id=7789">KINGSTON SHFS37A120G</a></td>
+<td id="rt7789" class="value"><div class="meter brown"><span style="width: 10%" onmouseout="HTAD()" onmouseover="STAD(event,38,2563,&#39;111.8 GB&#39;)"></span>2,648</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SHFS37A120G&amp;id=7789#price">NA</a></td></tr>
+<tr><td id="rk3093" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SPCC%20Solid%20State&amp;id=3093">SPCC Solid State</a></td>
+<td id="rt3093" class="value"><div class="meter purple"><span style="width: 10%" onmouseout="HTAD()" onmouseover="STAD(event,39,2748,&#39;119.2 GB&#39;)"></span>2,588</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SPCC%20Solid%20State&amp;id=3093#price">NA</a></td></tr>
+<tr><td id="rk9269" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SanDisk%20SDSSDA120G&amp;id=9269">SanDisk SDSSDA120G</a></td>
+<td id="rt9269" class="value"><div class="meter blue"><span style="width: 10%" onmouseout="HTAD()" onmouseover="STAD(event,40,3509,&#39;111.8 GB&#39;)"></span>2,582</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SanDisk%20SDSSDA120G&amp;id=9269#price">NA</a></td></tr>
+<tr><td id="rk13916" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SA400S37120G&amp;id=13916">KINGSTON SA400S37120G</a></td>
+<td id="rt13916" class="value"><div class="meter pink"><span style="width: 10%" onmouseout="HTAD()" onmouseover="STAD(event,41,1766,&#39;111.8 GB&#39;)"></span>2,500</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SA400S37120G&amp;id=13916#price">NA</a></td></tr>
+<tr><td id="rk17309" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20Series&amp;id=17309">Samsung SSD 840 Series</a></td>
+<td id="rt17309" class="value"><div class="meter yellow"><span style="width: 9%" onmouseout="HTAD()" onmouseover="STAD(event,42,5316,&#39;232.9 GB&#39;)"></span>2,465</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20Series&amp;id=17309#price">NA</a></td></tr>
+<tr><td id="rk3058" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SV300S37A120G&amp;id=3058">KINGSTON SV300S37A120G</a></td>
+<td id="rt3058" class="value"><div class="meter green"><span style="width: 9%" onmouseout="HTAD()" onmouseover="STAD(event,43,17848,&#39;111.8 GB&#39;)"></span>2,443</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SV300S37A120G&amp;id=3058#price">NA</a></td></tr>
+<tr><td id="rk301" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=M4-CT256M4SSD2&amp;id=301">M4-CT256M4SSD2</a></td>
+<td id="rt301" class="value"><div class="meter light-purple"><span style="width: 8%" onmouseout="HTAD()" onmouseover="STAD(event,44,2202,&#39;238.5 GB&#39;)"></span>2,165</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=M4-CT256M4SSD2&amp;id=301#price">$179.87*</a></td></tr>
+<tr><td id="rk47" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=OCZ%20AGILITY%203%20120GB&amp;id=47">OCZ AGILITY 3 120GB</a></td>
+<td id="rt47" class="value"><div class="meter red"><span style="width: 8%" onmouseout="HTAD()" onmouseover="STAD(event,45,4560,&#39;111.8 GB&#39;)"></span>2,149</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=OCZ%20AGILITY%203%20120GB&amp;id=47#price">$149.99</a></td></tr>
+<tr><td id="rk74" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Corsair%20Force%203%20SSD&amp;id=74">Corsair Force 3 SSD</a></td>
+<td id="rt74" class="value"><div class="meter turquoise"><span style="width: 8%" onmouseout="HTAD()" onmouseover="STAD(event,46,4054,&#39;55.9 GB&#39;)"></span>2,145</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Corsair%20Force%203%20SSD&amp;id=74#price">$144.05*</a></td></tr>
+<tr><td id="rk3036" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SV300S37A60G&amp;id=3036">KINGSTON SV300S37A60G</a></td>
+<td id="rt3036" class="value"><div class="meter orange"><span style="width: 8%" onmouseout="HTAD()" onmouseover="STAD(event,47,2140,&#39;55.9 GB&#39;)"></span>2,101</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SV300S37A60G&amp;id=3036#price">NA</a></td></tr>
+<tr><td id="rk178" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20M4-CT128M4SSD2&amp;id=178">Crucial M4-CT128M4SSD2</a></td>
+<td id="rt178" class="value"><div class="meter brown"><span style="width: 8%" onmouseout="HTAD()" onmouseover="STAD(event,48,4131,&#39;119.2 GB&#39;)"></span>2,092</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20M4-CT128M4SSD2&amp;id=178#price">$104.99*</a></td></tr>
+<tr><td id="rk2225" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SanDisk%20SDSSDP128G&amp;id=2225">SanDisk SDSSDP128G</a></td>
+<td id="rt2225" class="value"><div class="meter purple"><span style="width: 5%" onmouseout="HTAD()" onmouseover="STAD(event,49,2707,&#39;119.2 GB&#39;)"></span>1,439</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SanDisk%20SDSSDP128G&amp;id=2225#price">NA</a></td></tr>
+<tr><td id="rk16" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000DM003&amp;id=16">Seagate ST1000DM003</a></td>
+<td id="rt16" class="value"><div class="meter blue"><span style="width: 4%" onmouseout="HTAD()" onmouseover="STAD(event,50,19744,&#39;931.5 GB&#39;)"></span>1,135</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000DM003&amp;id=16#price">$39.99</a></td></tr>
+<tr><td id="rk3067" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20DT01ACA200&amp;id=3067">TOSHIBA DT01ACA200</a></td>
+<td id="rt3067" class="value"><div class="meter pink"><span style="width: 4%" onmouseout="HTAD()" onmouseover="STAD(event,51,2332,&#39;1.8 TB&#39;)"></span>1,131</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20DT01ACA200&amp;id=3067#price">$74.74</a></td></tr>
+<tr><td id="rk110" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST2000DM001&amp;id=110">Seagate ST2000DM001</a></td>
+<td id="rt110" class="value"><div class="meter yellow"><span style="width: 4%" onmouseout="HTAD()" onmouseover="STAD(event,52,8955,&#39;1.8 TB&#39;)"></span>1,121</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST2000DM001&amp;id=110#price">$76.00</a></td></tr>
+<tr><td id="rk616" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EZEX&amp;id=616">WDC WD10EZEX</a></td>
+<td id="rt616" class="value"><div class="meter green"><span style="width: 4%" onmouseout="HTAD()" onmouseover="STAD(event,53,20156,&#39;931.5 GB&#39;)"></span>1,074</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EZEX&amp;id=616#price">$53.96</a></td></tr>
+<tr><td id="rk2685" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20DT01ACA100&amp;id=2685">TOSHIBA DT01ACA100</a></td>
+<td id="rt2685" class="value"><div class="meter light-purple"><span style="width: 4%" onmouseout="HTAD()" onmouseover="STAD(event,54,6382,&#39;931.5 GB&#39;)"></span>1,070</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20DT01ACA100&amp;id=2685#price">$38.95</a></td></tr>
+<tr><td id="rk6265" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD1003FZEX&amp;id=6265">WDC WD1003FZEX</a></td>
+<td id="rt6265" class="value"><div class="meter red"><span style="width: 4%" onmouseout="HTAD()" onmouseover="STAD(event,55,2116,&#39;931.5 GB&#39;)"></span>1,070</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD1003FZEX&amp;id=6265#price">$79.99*</a></td></tr>
+<tr><td id="rk2808" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20DT01ACA050&amp;id=2808">TOSHIBA DT01ACA050</a></td>
+<td id="rt2808" class="value"><div class="meter turquoise"><span style="width: 4%" onmouseout="HTAD()" onmouseover="STAD(event,56,2979,&#39;465.8 GB&#39;)"></span>1,014</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20DT01ACA050&amp;id=2808#price">$20.99</a></td></tr>
+<tr><td id="rk9657" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000DX001&amp;id=9657">Seagate ST1000DX001</a></td>
+<td id="rt9657" class="value"><div class="meter orange"><span style="width: 4%" onmouseout="HTAD()" onmouseover="STAD(event,57,2369,&#39;931.5 GB&#39;)"></span>1,008</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000DX001&amp;id=9657#price">$108.97</a></td></tr>
+<tr><td id="rk138" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EZRX&amp;id=138">WDC WD10EZRX</a></td>
+<td id="rt138" class="value"><div class="meter brown"><span style="width: 3%" onmouseout="HTAD()" onmouseover="STAD(event,58,2095,&#39;931.5 GB&#39;)"></span>876</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EZRX&amp;id=138#price">$35.99</a></td></tr>
+<tr><td id="rk86" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SAMSUNG%20HD502HJ&amp;id=86">SAMSUNG HD502HJ</a></td>
+<td id="rt86" class="value"><div class="meter purple"><span style="width: 3%" onmouseout="HTAD()" onmouseover="STAD(event,59,2155,&#39;465.8 GB&#39;)"></span>845</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SAMSUNG%20HD502HJ&amp;id=86#price">$47.93*</a></td></tr>
+<tr><td id="rk127" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SAMSUNG%20HD103SJ&amp;id=127">SAMSUNG HD103SJ</a></td>
+<td id="rt127" class="value"><div class="meter blue"><span style="width: 3%" onmouseout="HTAD()" onmouseover="STAD(event,60,3025,&#39;931.5 GB&#39;)"></span>839</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SAMSUNG%20HD103SJ&amp;id=127#price">$64.89</a></td></tr>
+<tr><td id="rk3023" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS721010A9E630&amp;id=3023">HGST HTS721010A9E630</a></td>
+<td id="rt3023" class="value"><div class="meter pink"><span style="width: 3%" onmouseout="HTAD()" onmouseover="STAD(event,61,4480,&#39;931.5 GB&#39;)"></span>814</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS721010A9E630&amp;id=3023#price">$64.99*</a></td></tr>
+<tr><td id="rk30" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD1002FAEX&amp;id=30">WDC WD1002FAEX</a></td>
+<td id="rt30" class="value"><div class="meter yellow"><span style="width: 3%" onmouseout="HTAD()" onmouseover="STAD(event,62,4191,&#39;931.5 GB&#39;)"></span>768</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD1002FAEX&amp;id=30#price">$35.99</a></td></tr>
+<tr><td id="rk2991" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS725050A7E630&amp;id=2991">HGST HTS725050A7E630</a></td>
+<td id="rt2991" class="value"><div class="meter green"><span style="width: 3%" onmouseout="HTAD()" onmouseover="STAD(event,63,2406,&#39;465.8 GB&#39;)"></span>765</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS725050A7E630&amp;id=2991#price">$5,780.95*</a></td></tr>
+<tr><td id="rk116" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000AAKX&amp;id=116">WDC WD5000AAKX</a></td>
+<td id="rt116" class="value"><div class="meter light-purple"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,64,11071,&#39;465.8 GB&#39;)"></span>744</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000AAKX&amp;id=116#price">$19.98</a></td></tr>
+<tr><td id="rk104" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST3500418AS&amp;id=104">Seagate ST3500418AS</a></td>
+<td id="rt104" class="value"><div class="meter red"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,65,5867,&#39;465.8 GB&#39;)"></span>738</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST3500418AS&amp;id=104#price">$28.99</a></td></tr>
+<tr><td id="rk176" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST3500413AS&amp;id=176">Seagate ST3500413AS</a></td>
+<td id="rt176" class="value"><div class="meter turquoise"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,66,2864,&#39;465.8 GB&#39;)"></span>732</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST3500413AS&amp;id=176#price">$71.99*</a></td></tr>
+<tr><td id="rk57" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST31000524AS&amp;id=57">Seagate ST31000524AS</a></td>
+<td id="rt57" class="value"><div class="meter orange"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,67,5036,&#39;931.5 GB&#39;)"></span>704</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST31000524AS&amp;id=57#price">$69.99</a></td></tr>
+<tr><td id="rk34" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST31000528AS&amp;id=34">Seagate ST31000528AS</a></td>
+<td id="rt34" class="value"><div class="meter brown"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,68,4664,&#39;931.5 GB&#39;)"></span>691</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST31000528AS&amp;id=34#price">$97.00*</a></td></tr>
+<tr><td id="rk973" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20MQ01ABD100&amp;id=973">TOSHIBA MQ01ABD100</a></td>
+<td id="rt973" class="value"><div class="meter purple"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,69,7900,&#39;931.5 GB&#39;)"></span>690</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20MQ01ABD100&amp;id=973#price">$39.88</a></td></tr>
+<tr><td id="rk4977" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10JPVX&amp;id=4977">WDC WD10JPVX</a></td>
+<td id="rt4977" class="value"><div class="meter blue"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,70,5956,&#39;931.5 GB&#39;)"></span>690</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10JPVX&amp;id=4977#price">$87.58*</a></td></tr>
+<tr><td id="rk100" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST3250318AS&amp;id=100">Seagate ST3250318AS</a></td>
+<td id="rt100" class="value"><div class="meter pink"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,71,2005,&#39;232.9 GB&#39;)"></span>686</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST3250318AS&amp;id=100#price">$20.99</a></td></tr>
+<tr><td id="rk4668" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20MQ01ABF050&amp;id=4668">TOSHIBA MQ01ABF050</a></td>
+<td id="rt4668" class="value"><div class="meter yellow"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,72,4143,&#39;465.8 GB&#39;)"></span>684</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20MQ01ABF050&amp;id=4668#price">$29.99</a></td></tr>
+<tr><td id="rk80" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Hitachi%20HDS721010CLA332&amp;id=80">Hitachi HDS721010CLA332</a></td>
+<td id="rt80" class="value"><div class="meter green"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,73,2263,&#39;931.5 GB&#39;)"></span>675</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Hitachi%20HDS721010CLA332&amp;id=80#price">NA</a></td></tr>
+<tr><td id="rk4722" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000LPVX&amp;id=4722">WDC WD5000LPVX</a></td>
+<td id="rt4722" class="value"><div class="meter light-purple"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,74,3617,&#39;465.8 GB&#39;)"></span>672</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000LPVX&amp;id=4722#price">$126.17*</a></td></tr>
+<tr><td id="rk133" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD6400AAKS&amp;id=133">WDC WD6400AAKS</a></td>
+<td id="rt133" class="value"><div class="meter red"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,75,2965,&#39;596.2 GB&#39;)"></span>661</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD6400AAKS&amp;id=133#price">$56.99*</a></td></tr>
+<tr><td id="rk4432" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000LM014&amp;id=4432">Seagate ST1000LM014</a></td>
+<td id="rt4432" class="value"><div class="meter turquoise"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,76,4622,&#39;931.5 GB&#39;)"></span>658</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000LM014&amp;id=4432#price">$143.67</a></td></tr>
+<tr><td id="rk2370" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST500LT012&amp;id=2370">Seagate ST500LT012</a></td>
+<td id="rt2370" class="value"><div class="meter orange"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,77,8097,&#39;465.8 GB&#39;)"></span>648</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST500LT012&amp;id=2370#price">$31.49</a></td></tr>
+<tr><td id="rk362" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000LM024&amp;id=362">Seagate ST1000LM024</a></td>
+<td id="rt362" class="value"><div class="meter brown"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,78,13563,&#39;931.5 GB&#39;)"></span>645</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000LM024&amp;id=362#price">NA</a></td></tr>
+<tr><td id="rk359" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20MQ01ABD075&amp;id=359">TOSHIBA MQ01ABD075</a></td>
+<td id="rt359" class="value"><div class="meter purple"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,79,2885,&#39;698.6 GB&#39;)"></span>640</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20MQ01ABD075&amp;id=359#price">$44.99</a></td></tr>
+<tr><td id="rk32" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000AAKS&amp;id=32">WDC WD5000AAKS</a></td>
+<td id="rt32" class="value"><div class="meter blue"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,80,6239,&#39;465.8 GB&#39;)"></span>634</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000AAKS&amp;id=32#price">$39.99*</a></td></tr>
+<tr><td id="rk3801" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS541010A9E680&amp;id=3801">HGST HTS541010A9E680</a></td>
+<td id="rt3801" class="value"><div class="meter pink"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,81,4711,&#39;931.5 GB&#39;)"></span>631</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS541010A9E680&amp;id=3801#price">$52.99</a></td></tr>
+<tr><td id="rk21059" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST500LM000&amp;id=21059">Seagate ST500LM000</a></td>
+<td id="rt21059" class="value"><div class="meter yellow"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,82,2866,&#39;489 GB&#39;)"></span>613</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST500LM000&amp;id=21059#price">NA</a></td></tr>
+<tr><td id="rk5566" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS545050A7E680&amp;id=5566">HGST HTS545050A7E680</a></td>
+<td id="rt5566" class="value"><div class="meter green"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,83,2574,&#39;465.8 GB&#39;)"></span>610</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS545050A7E680&amp;id=5566#price">$2,573.03*</a></td></tr>
+<tr><td id="rk64" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200AAJS&amp;id=64">WDC WD3200AAJS</a></td>
+<td id="rt64" class="value"><div class="meter light-purple"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,84,3371,&#39;296.6 GB&#39;)"></span>604</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200AAJS&amp;id=64#price">$16.88</a></td></tr>
+<tr><td id="rk502" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST750LM022&amp;id=502">Seagate ST750LM022</a></td>
+<td id="rt502" class="value"><div class="meter red"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,85,2337,&#39;698.6 GB&#39;)"></span>603</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST750LM022&amp;id=502#price">$87.00</a></td></tr>
+<tr><td id="rk389" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Hitachi%20HTS545050A7E380&amp;id=389">Hitachi HTS545050A7E380</a></td>
+<td id="rt389" class="value"><div class="meter turquoise"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,86,2477,&#39;465.8 GB&#39;)"></span>601</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Hitachi%20HTS545050A7E380&amp;id=389#price">$157.95</a></td></tr>
+<tr><td id="rk219" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200AAKS&amp;id=219">WDC WD3200AAKS</a></td>
+<td id="rt219" class="value"><div class="meter orange"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,87,2674,&#39;298.1 GB&#39;)"></span>595</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200AAKS&amp;id=219#price">$18.50</a></td></tr>
+<tr><td id="rk273" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200BEKT&amp;id=273">WDC WD3200BEKT</a></td>
+<td id="rt273" class="value"><div class="meter brown"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,88,1963,&#39;298.1 GB&#39;)"></span>593</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200BEKT&amp;id=273#price">$34.99*</a></td></tr>
+<tr><td id="rk12323" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000LM035&amp;id=12323">Seagate ST1000LM035</a></td>
+<td id="rt12323" class="value"><div class="meter purple"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,89,2155,&#39;931.5 GB&#39;)"></span>589</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000LM035&amp;id=12323#price">$38.50</a></td></tr>
+<tr><td id="rk70" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EARS&amp;id=70">WDC WD10EARS</a></td>
+<td id="rt70" class="value"><div class="meter blue"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,90,2629,&#39;931.5 GB&#39;)"></span>581</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EARS&amp;id=70#price">$86.00</a></td></tr>
+<tr><td id="rk7" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EADS&amp;id=7">WDC WD10EADS</a></td>
+<td id="rt7" class="value"><div class="meter pink"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,91,2113,&#39;931.5 GB&#39;)"></span>575</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EADS&amp;id=7#price">$66.01*</a></td></tr>
+<tr><td id="rk88" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD7500BPVT&amp;id=88">WDC WD7500BPVT</a></td>
+<td id="rt88" class="value"><div class="meter yellow"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,92,2537,&#39;698.6 GB&#39;)"></span>568</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD7500BPVT&amp;id=88#price">$99.89*</a></td></tr>
+<tr><td id="rk73" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD1600AAJS&amp;id=73">WDC WD1600AAJS</a></td>
+<td id="rt73" class="value"><div class="meter green"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,93,2959,&#39;149 GB&#39;)"></span>556</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD1600AAJS&amp;id=73#price">$13.99</a></td></tr>
+<tr><td id="rk805" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000BPVT&amp;id=805">WDC WD5000BPVT</a></td>
+<td id="rt805" class="value"><div class="meter light-purple"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,94,2402,&#39;465.8 GB&#39;)"></span>520</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000BPVT&amp;id=805#price">$43.49*</a></td></tr>
+<tr><td id="rk247" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST9500420AS&amp;id=247">Seagate ST9500420AS</a></td>
+<td id="rt247" class="value"><div class="meter red"><span style="width: 2%" onmouseout="HTAD()" onmouseover="STAD(event,95,2698,&#39;465.8 GB&#39;)"></span>508</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST9500420AS&amp;id=247#price">$38.99</a></td></tr>
+<tr><td id="rk529" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Hitachi%20HTS547575A9E384&amp;id=529">Hitachi HTS547575A9E384</a></td>
+<td id="rt529" class="value"><div class="meter turquoise"><span style="width: 1%" onmouseout="HTAD()" onmouseover="STAD(event,96,3247,&#39;698.6 GB&#39;)"></span>495</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Hitachi%20HTS547575A9E384&amp;id=529#price">$39.19</a></td></tr>
+<tr><td id="rk294" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200BPVT&amp;id=294">WDC WD3200BPVT</a></td>
+<td id="rt294" class="value"><div class="meter orange"><span style="width: 1%" onmouseout="HTAD()" onmouseover="STAD(event,97,2445,&#39;298.1 GB&#39;)"></span>481</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200BPVT&amp;id=294#price">$43.00</a></td></tr>
+<tr><td id="rk295" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000BEVT&amp;id=295">WDC WD5000BEVT</a></td>
+<td id="rt295" class="value"><div class="meter brown"><span style="width: 1%" onmouseout="HTAD()" onmouseover="STAD(event,98,2264,&#39;465.8 GB&#39;)"></span>451</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000BEVT&amp;id=295#price">$109.89*</a></td></tr>
+<tr><td id="rk147" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200BEVT&amp;id=147">WDC WD3200BEVT</a></td>
+<td id="rt147" class="value"><div class="meter purple"><span style="width: 1%" onmouseout="HTAD()" onmouseover="STAD(event,99,3045,&#39;298.1 GB&#39;)"></span>417</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200BEVT&amp;id=147#price">$82.89*</a></td></tr>
+<tr><td id="rk220" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST9500325AS&amp;id=220">Seagate ST9500325AS</a></td>
+<td id="rt220" class="value"><div class="meter blue"><span style="width: 1%" onmouseout="HTAD()" onmouseover="STAD(event,100,5746,&#39;465.8 GB&#39;)"></span>414</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST9500325AS&amp;id=220#price">$38.99*</a></td></tr>
+<tr><td class="chart">PassMark Software © 2008-2019</td>
+<td class="value"></td><td class="chart"></td></tr>
+</tbody></table>
+<div class="notes"><em>* - Last price seen from our affiliates.</em></div>
+    </div>
+    <div id="value" style="display: none;">
+      <table class="chart" style="border:0px;border-collapse:collapse;">
+<caption class="chart" style="vertical-align:top">PassMark - Price Performance (Disk Rating / $Price)<br>Common Drives - Updated 22nd of January 2019<br></caption>
+<tbody><tr><th class="chart" scope="col"><span class="auraltext">Drive</span></th>
+<th class="chart" scope="col"><span class="auraltext">PassMark Disk Rating / Price</span></th>
+<th class="chart" scope="col"><span>Price (USD)</span></th></tr>
+<tr><td id="pk15854" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20970%20EVO%20500GB&amp;id=15854">Samsung SSD 970 EVO 500GB</a></td>
+<td id="pt15854" class="value"><div class="meter pink"><span style="width: 48%" onmouseout="HTAD()" onmouseover="value_STAD(event,1,21704,2601,&#39;465.8 GB&#39;)"></span>167.08</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20970%20EVO%20500GB&amp;id=15854#price">$129.90</a></td></tr>
+<tr><td id="pk12871" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20960%20PRO%20512GB&amp;id=12871">Samsung SSD 960 PRO 512GB</a></td>
+<td id="pt12871" class="value"><div class="meter yellow"><span style="width: 24%" onmouseout="HTAD()" onmouseover="value_STAD(event,2,17624,2392,&#39;476.9 GB&#39;)"></span>85.97</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20960%20PRO%20512GB&amp;id=12871#price">$204.99</a></td></tr>
+<tr><td id="pk15887" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20970%20EVO%20250GB&amp;id=15887">Samsung SSD 970 EVO 250GB</a></td>
+<td id="pt15887" class="value"><div class="meter green"><span style="width: 51%" onmouseout="HTAD()" onmouseover="value_STAD(event,3,16063,1793,&#39;232.9 GB&#39;)"></span>178.50</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20970%20EVO%20250GB&amp;id=15887#price">$89.99</a></td></tr>
+<tr><td id="pk18501" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=NVMe%20Samsung%20SSD%20960&amp;id=18501">NVMe Samsung SSD 960</a></td>
+<td id="pt18501" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=NVMe%20Samsung%20SSD%20960&amp;id=18501#price">NA</a></td></tr>
+<tr><td id="pk13235" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20960%20EVO%20500GB&amp;id=13235">Samsung SSD 960 EVO 500GB</a></td>
+<td id="pt13235" class="value"><div class="meter red"><span style="width: 31%" onmouseout="HTAD()" onmouseover="value_STAD(event,5,14773,4171,&#39;465.8 GB&#39;)"></span>109.52</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20960%20EVO%20500GB&amp;id=13235#price">$134.89</a></td></tr>
+<tr><td id="pk12734" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20PM961%20256GB%20NVMe&amp;id=12734">Samsung PM961 256GB NVMe</a></td>
+<td id="pt12734" class="value"><div class="meter turquoise"><span style="width: 86%" onmouseout="HTAD()" onmouseover="value_STAD(event,6,14660,2481,&#39;238.5 GB&#39;)"></span>299.18</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20PM961%20256GB%20NVMe&amp;id=12734#price">$49.00</a></td></tr>
+<tr><td id="pk13210" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20960%20EVO%20250GB&amp;id=13210">Samsung SSD 960 EVO 250GB</a></td>
+<td id="pt13210" class="value"><div class="meter orange"><span style="width: 32%" onmouseout="HTAD()" onmouseover="value_STAD(event,7,13397,6364,&#39;232.9 GB&#39;)"></span>111.66</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20960%20EVO%20250GB&amp;id=13210#price">$119.98</a></td></tr>
+<tr><td id="pk20103" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=NVMe%20Samsung%20SSD%20950&amp;id=20103">NVMe Samsung SSD 950</a></td>
+<td id="pt20103" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=NVMe%20Samsung%20SSD%20950&amp;id=20103#price">NA</a></td></tr>
+<tr><td id="pk10708" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20950%20Pro%20256GB%20NVMe&amp;id=10708">Samsung SSD 950 Pro 256GB NVMe</a></td>
+<td id="pt10708" class="value"><div class="meter purple"><span style="width: 17%" onmouseout="HTAD()" onmouseover="value_STAD(event,9,10659,3394,&#39;238.5 GB&#39;)"></span>60.91</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20950%20Pro%20256GB%20NVMe&amp;id=10708#price">$174.99</a></td></tr>
+<tr><td id="pk15379" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20860%20EVO%20500GB&amp;id=15379">Samsung SSD 860 EVO 500GB</a></td>
+<td id="pt15379" class="value"><div class="meter blue"><span style="width: 15%" onmouseout="HTAD()" onmouseover="value_STAD(event,10,4556,1872,&#39;465.8 GB&#39;)"></span>53.64</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20860%20EVO%20500GB&amp;id=15379#price">$84.94</a></td></tr>
+<tr><td id="pk8822" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%201TB&amp;id=8822">Samsung SSD 850 EVO 1TB</a></td>
+<td id="pt8822" class="value"><div class="meter pink"><span style="width: 5%" onmouseout="HTAD()" onmouseover="value_STAD(event,11,4475,2755,&#39;931.5 GB&#39;)"></span>17.90</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%201TB&amp;id=8822#price">$249.95</a></td></tr>
+<tr><td id="pk8742" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%20500GB&amp;id=8742">Samsung SSD 850 EVO 500GB</a></td>
+<td id="pt8742" class="value"><div class="meter yellow"><span style="width: 12%" onmouseout="HTAD()" onmouseover="value_STAD(event,12,4373,16818,&#39;465.8 GB&#39;)"></span>43.73</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%20500GB&amp;id=8742#price">$99.99</a></td></tr>
+<tr><td id="pk8065" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20PRO%20512GB&amp;id=8065">Samsung SSD 850 PRO 512GB</a></td>
+<td id="pt8065" class="value"><div class="meter green"><span style="width: 6%" onmouseout="HTAD()" onmouseover="value_STAD(event,13,4347,2676,&#39;476.9 GB&#39;)"></span>21.74</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20PRO%20512GB&amp;id=8065#price">$199.99</a></td></tr>
+<tr><td id="pk7818" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20PRO%20256GB&amp;id=7818">Samsung SSD 850 PRO 256GB</a></td>
+<td id="pt7818" class="value"><div class="meter light-purple"><span style="width: 8%" onmouseout="HTAD()" onmouseover="value_STAD(event,14,4226,5247,&#39;238.5 GB&#39;)"></span>28.31</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20PRO%20256GB&amp;id=7818#price">$149.25</a></td></tr>
+<tr><td id="pk8747" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%20250GB&amp;id=8747">Samsung SSD 850 EVO 250GB</a></td>
+<td id="pt8747" class="value"><div class="meter red"><span style="width: 25%" onmouseout="HTAD()" onmouseover="value_STAD(event,15,4172,24824,&#39;232.9 GB&#39;)"></span>86.93</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%20250GB&amp;id=8747#price">$47.99</a></td></tr>
+<tr><td id="pk5529" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20EVO%20500GB&amp;id=5529">Samsung SSD 840 EVO 500GB</a></td>
+<td id="pt5529" class="value"><div class="meter turquoise"><span style="width: 7%" onmouseout="HTAD()" onmouseover="value_STAD(event,16,4058,4131,&#39;465.8 GB&#39;)"></span>27.06</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20EVO%20500GB&amp;id=5529#price">$149.99</a></td></tr>
+<tr><td id="pk8780" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%20120GB&amp;id=8780">Samsung SSD 850 EVO 120GB</a></td>
+<td id="pt8780" class="value"><div class="meter orange"><span style="width: 16%" onmouseout="HTAD()" onmouseover="value_STAD(event,17,4029,4359,&#39;111.8 GB&#39;)"></span>57.60</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20850%20EVO%20120GB&amp;id=8780#price">$69.95</a></td></tr>
+<tr><td id="pk11694" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20750%20EVO%20250GB&amp;id=11694">Samsung SSD 750 EVO 250GB</a></td>
+<td id="pt11694" class="value"><div class="meter brown"><span style="width: 5%" onmouseout="HTAD()" onmouseover="value_STAD(event,18,3962,1803,&#39;232.9 GB&#39;)"></span>19.81</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20750%20EVO%20250GB&amp;id=11694#price">$199.99</a></td></tr>
+<tr><td id="pk12503" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT525MX300SSD1&amp;id=12503">Crucial CT525MX300SSD1</a></td>
+<td id="pt12503" class="value"><div class="meter purple"><span style="width: 9%" onmouseout="HTAD()" onmouseover="value_STAD(event,19,3925,1779,&#39;489 GB&#39;)"></span>33.07</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT525MX300SSD1&amp;id=12503#price">$118.69</a></td></tr>
+<tr><td id="pk5448" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20EVO%20250GB&amp;id=5448">Samsung SSD 840 EVO 250GB</a></td>
+<td id="pt5448" class="value"><div class="meter blue"><span style="width: 4%" onmouseout="HTAD()" onmouseover="value_STAD(event,20,3880,15180,&#39;232.9 GB&#39;)"></span>16.17</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20EVO%20250GB&amp;id=5448#price">$239.89</a></td></tr>
+<tr><td id="pk2" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=OCZ%20Vertex%204%20256GB&amp;id=2">OCZ Vertex 4 256GB</a></td>
+<td id="pt2" class="value"><div class="meter pink"><span style="width: 4%" onmouseout="HTAD()" onmouseover="value_STAD(event,21,3658,2106,&#39;238.5 GB&#39;)"></span>17.01</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=OCZ%20Vertex%204%20256GB&amp;id=2#price">$214.99*</a></td></tr>
+<tr><td id="pk423" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Kingston%20HyperX%203K%20240GB%20SH103S3240G&amp;id=423">Kingston HyperX 3K 240GB SH103S3240G</a></td>
+<td id="pt423" class="value"><div class="meter yellow"><span style="width: 5%" onmouseout="HTAD()" onmouseover="value_STAD(event,22,3656,2528,&#39;223.6 GB&#39;)"></span>18.75</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Kingston%20HyperX%203K%20240GB%20SH103S3240G&amp;id=423#price">$194.99*</a></td></tr>
+<tr><td id="pk5470" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20EVO%20120GB&amp;id=5470">Samsung SSD 840 EVO 120GB</a></td>
+<td id="pt5470" class="value"><div class="meter green"><span style="width: 10%" onmouseout="HTAD()" onmouseover="value_STAD(event,23,3608,10241,&#39;111.8 GB&#39;)"></span>36.08</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20EVO%20120GB&amp;id=5470#price">$99.99</a></td></tr>
+<tr><td id="pk12134" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SUV400S37240G&amp;id=12134">KINGSTON SUV400S37240G</a></td>
+<td id="pt12134" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SUV400S37240G&amp;id=12134#price">NA</a></td></tr>
+<tr><td id="pk258" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Corsair%20Force%20GS&amp;id=258">Corsair Force GS</a></td>
+<td id="pt258" class="value"><div class="meter red"><span style="width: 2%" onmouseout="HTAD()" onmouseover="value_STAD(event,25,3414,1995,&#39;223.6 GB&#39;)"></span>8.21</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Corsair%20Force%20GS&amp;id=258#price">$415.98*</a></td></tr>
+<tr><td id="pk8998" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Cruicial%20CT250BX100SSD1&amp;id=8998">Cruicial CT250BX100SSD1</a></td>
+<td id="pt8998" class="value"><div class="meter turquoise"><span style="width: 10%" onmouseout="HTAD()" onmouseover="value_STAD(event,26,3375,1769,&#39;232.9 GB&#39;)"></span>35.53</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Cruicial%20CT250BX100SSD1&amp;id=8998#price">$94.99*</a></td></tr>
+<tr><td id="pk7575" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT512MX100SSD1&amp;id=7575">Crucial CT512MX100SSD1</a></td>
+<td id="pt7575" class="value"><div class="meter orange"><span style="width: 5%" onmouseout="HTAD()" onmouseover="value_STAD(event,27,3367,2248,&#39;476.9 GB&#39;)"></span>18.71</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT512MX100SSD1&amp;id=7575#price">$179.99</a></td></tr>
+<tr><td id="pk17403" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20PRO%20Series&amp;id=17403">Samsung SSD 840 PRO Series</a></td>
+<td id="pt17403" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20PRO%20Series&amp;id=17403#price">NA</a></td></tr>
+<tr><td id="pk230" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Kingston%20HyperX%203K%20120GB%20SH103S3120G&amp;id=230">Kingston HyperX 3K 120GB SH103S3120G</a></td>
+<td id="pt230" class="value"><div class="meter purple"><span style="width: 7%" onmouseout="HTAD()" onmouseover="value_STAD(event,29,3145,5986,&#39;111.8 GB&#39;)"></span>26.21</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Kingston%20HyperX%203K%20120GB%20SH103S3120G&amp;id=230#price">$119.98*</a></td></tr>
+<tr><td id="pk3962" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SV300S37A240G&amp;id=3962">KINGSTON SV300S37A240G</a></td>
+<td id="pt3962" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SV300S37A240G&amp;id=3962#price">NA</a></td></tr>
+<tr><td id="pk12142" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SUV400S37120G&amp;id=12142">KINGSTON SUV400S37120G</a></td>
+<td id="pt12142" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SUV400S37120G&amp;id=12142#price">NA</a></td></tr>
+<tr><td id="pk757" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Intel%20SSD%20520%20120GB%20SSDSC2CW120A3&amp;id=757">Intel SSD 520 120GB SSDSC2CW120A3</a></td>
+<td id="pt757" class="value"><div class="meter yellow"><span style="width: 11%" onmouseout="HTAD()" onmouseover="value_STAD(event,32,3062,2089,&#39;111.8 GB&#39;)"></span>40.44</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Intel%20SSD%20520%20120GB%20SSDSC2CW120A3&amp;id=757#price">$75.71</a></td></tr>
+<tr><td id="pk18" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Corsair%20Force%20GT&amp;id=18">Corsair Force GT</a></td>
+<td id="pt18" class="value"><div class="meter green"><span style="width: 10%" onmouseout="HTAD()" onmouseover="value_STAD(event,33,3060,3499,&#39;111.8 GB&#39;)"></span>34.43</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Corsair%20Force%20GT&amp;id=18#price">$88.87*</a></td></tr>
+<tr><td id="pk16949" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SAMSUNG%20SSD%20830%20Series&amp;id=16949">SAMSUNG SSD 830 Series</a></td>
+<td id="pt16949" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SAMSUNG%20SSD%20830%20Series&amp;id=16949#price">NA</a></td></tr>
+<tr><td id="pk7532" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT256MX100SSD1&amp;id=7532">Crucial CT256MX100SSD1</a></td>
+<td id="pt7532" class="value"><div class="meter red"><span style="width: 8%" onmouseout="HTAD()" onmouseover="value_STAD(event,35,2901,4092,&#39;238.5 GB&#39;)"></span>29.01</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT256MX100SSD1&amp;id=7532#price">$99.99</a></td></tr>
+<tr><td id="pk9194" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SanDisk%20SDSSDA240G&amp;id=9194">SanDisk SDSSDA240G</a></td>
+<td id="pt9194" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SanDisk%20SDSSDA240G&amp;id=9194#price">NA</a></td></tr>
+<tr><td id="pk4861" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT240M500SSD1&amp;id=4861">Crucial CT240M500SSD1</a></td>
+<td id="pt4861" class="value"><div class="meter orange"><span style="width: 10%" onmouseout="HTAD()" onmouseover="value_STAD(event,37,2711,3198,&#39;223.6 GB&#39;)"></span>36.20</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20CT240M500SSD1&amp;id=4861#price">$74.88</a></td></tr>
+<tr><td id="pk7789" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SHFS37A120G&amp;id=7789">KINGSTON SHFS37A120G</a></td>
+<td id="pt7789" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SHFS37A120G&amp;id=7789#price">NA</a></td></tr>
+<tr><td id="pk3093" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SPCC%20Solid%20State&amp;id=3093">SPCC Solid State</a></td>
+<td id="pt3093" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SPCC%20Solid%20State&amp;id=3093#price">NA</a></td></tr>
+<tr><td id="pk9269" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SanDisk%20SDSSDA120G&amp;id=9269">SanDisk SDSSDA120G</a></td>
+<td id="pt9269" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SanDisk%20SDSSDA120G&amp;id=9269#price">NA</a></td></tr>
+<tr><td id="pk13916" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SA400S37120G&amp;id=13916">KINGSTON SA400S37120G</a></td>
+<td id="pt13916" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SA400S37120G&amp;id=13916#price">NA</a></td></tr>
+<tr><td id="pk17309" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20Series&amp;id=17309">Samsung SSD 840 Series</a></td>
+<td id="pt17309" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Samsung%20SSD%20840%20Series&amp;id=17309#price">NA</a></td></tr>
+<tr><td id="pk3058" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SV300S37A120G&amp;id=3058">KINGSTON SV300S37A120G</a></td>
+<td id="pt3058" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SV300S37A120G&amp;id=3058#price">NA</a></td></tr>
+<tr><td id="pk301" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=M4-CT256M4SSD2&amp;id=301">M4-CT256M4SSD2</a></td>
+<td id="pt301" class="value"><div class="meter light-purple"><span style="width: 3%" onmouseout="HTAD()" onmouseover="value_STAD(event,44,2165,2202,&#39;238.5 GB&#39;)"></span>12.04</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=M4-CT256M4SSD2&amp;id=301#price">$179.87*</a></td></tr>
+<tr><td id="pk47" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=OCZ%20AGILITY%203%20120GB&amp;id=47">OCZ AGILITY 3 120GB</a></td>
+<td id="pt47" class="value"><div class="meter red"><span style="width: 4%" onmouseout="HTAD()" onmouseover="value_STAD(event,45,2149,4560,&#39;111.8 GB&#39;)"></span>14.33</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=OCZ%20AGILITY%203%20120GB&amp;id=47#price">$149.99</a></td></tr>
+<tr><td id="pk74" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Corsair%20Force%203%20SSD&amp;id=74">Corsair Force 3 SSD</a></td>
+<td id="pt74" class="value"><div class="meter turquoise"><span style="width: 4%" onmouseout="HTAD()" onmouseover="value_STAD(event,46,2145,4054,&#39;55.9 GB&#39;)"></span>14.89</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Corsair%20Force%203%20SSD&amp;id=74#price">$144.05*</a></td></tr>
+<tr><td id="pk3036" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SV300S37A60G&amp;id=3036">KINGSTON SV300S37A60G</a></td>
+<td id="pt3036" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=KINGSTON%20SV300S37A60G&amp;id=3036#price">NA</a></td></tr>
+<tr><td id="pk178" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20M4-CT128M4SSD2&amp;id=178">Crucial M4-CT128M4SSD2</a></td>
+<td id="pt178" class="value"><div class="meter brown"><span style="width: 5%" onmouseout="HTAD()" onmouseover="value_STAD(event,48,2092,4131,&#39;119.2 GB&#39;)"></span>19.93</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Crucial%20M4-CT128M4SSD2&amp;id=178#price">$104.99*</a></td></tr>
+<tr><td id="pk2225" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SanDisk%20SDSSDP128G&amp;id=2225">SanDisk SDSSDP128G</a></td>
+<td id="pt2225" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SanDisk%20SDSSDP128G&amp;id=2225#price">NA</a></td></tr>
+<tr><td id="pk16" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000DM003&amp;id=16">Seagate ST1000DM003</a></td>
+<td id="pt16" class="value"><div class="meter blue"><span style="width: 8%" onmouseout="HTAD()" onmouseover="value_STAD(event,50,1135,19744,&#39;931.5 GB&#39;)"></span>28.38</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000DM003&amp;id=16#price">$39.99</a></td></tr>
+<tr><td id="pk3067" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20DT01ACA200&amp;id=3067">TOSHIBA DT01ACA200</a></td>
+<td id="pt3067" class="value"><div class="meter pink"><span style="width: 4%" onmouseout="HTAD()" onmouseover="value_STAD(event,51,1131,2332,&#39;1.8 TB&#39;)"></span>15.13</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20DT01ACA200&amp;id=3067#price">$74.74</a></td></tr>
+<tr><td id="pk110" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST2000DM001&amp;id=110">Seagate ST2000DM001</a></td>
+<td id="pt110" class="value"><div class="meter yellow"><span style="width: 4%" onmouseout="HTAD()" onmouseover="value_STAD(event,52,1121,8955,&#39;1.8 TB&#39;)"></span>14.75</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST2000DM001&amp;id=110#price">$76.00</a></td></tr>
+<tr><td id="pk616" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EZEX&amp;id=616">WDC WD10EZEX</a></td>
+<td id="pt616" class="value"><div class="meter green"><span style="width: 5%" onmouseout="HTAD()" onmouseover="value_STAD(event,53,1074,20156,&#39;931.5 GB&#39;)"></span>19.90</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EZEX&amp;id=616#price">$53.96</a></td></tr>
+<tr><td id="pk2685" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20DT01ACA100&amp;id=2685">TOSHIBA DT01ACA100</a></td>
+<td id="pt2685" class="value"><div class="meter light-purple"><span style="width: 7%" onmouseout="HTAD()" onmouseover="value_STAD(event,54,1070,6382,&#39;931.5 GB&#39;)"></span>27.47</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20DT01ACA100&amp;id=2685#price">$38.95</a></td></tr>
+<tr><td id="pk6265" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD1003FZEX&amp;id=6265">WDC WD1003FZEX</a></td>
+<td id="pt6265" class="value"><div class="meter red"><span style="width: 3%" onmouseout="HTAD()" onmouseover="value_STAD(event,55,1070,2116,&#39;931.5 GB&#39;)"></span>13.38</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD1003FZEX&amp;id=6265#price">$79.99*</a></td></tr>
+<tr><td id="pk2808" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20DT01ACA050&amp;id=2808">TOSHIBA DT01ACA050</a></td>
+<td id="pt2808" class="value"><div class="meter turquoise"><span style="width: 14%" onmouseout="HTAD()" onmouseover="value_STAD(event,56,1014,2979,&#39;465.8 GB&#39;)"></span>48.31</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20DT01ACA050&amp;id=2808#price">$20.99</a></td></tr>
+<tr><td id="pk9657" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000DX001&amp;id=9657">Seagate ST1000DX001</a></td>
+<td id="pt9657" class="value"><div class="meter orange"><span style="width: 2%" onmouseout="HTAD()" onmouseover="value_STAD(event,57,1008,2369,&#39;931.5 GB&#39;)"></span>9.25</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000DX001&amp;id=9657#price">$108.97</a></td></tr>
+<tr><td id="pk138" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EZRX&amp;id=138">WDC WD10EZRX</a></td>
+<td id="pt138" class="value"><div class="meter brown"><span style="width: 7%" onmouseout="HTAD()" onmouseover="value_STAD(event,58,876,2095,&#39;931.5 GB&#39;)"></span>24.34</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EZRX&amp;id=138#price">$35.99</a></td></tr>
+<tr><td id="pk86" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SAMSUNG%20HD502HJ&amp;id=86">SAMSUNG HD502HJ</a></td>
+<td id="pt86" class="value"><div class="meter purple"><span style="width: 5%" onmouseout="HTAD()" onmouseover="value_STAD(event,59,845,2155,&#39;465.8 GB&#39;)"></span>17.63</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SAMSUNG%20HD502HJ&amp;id=86#price">$47.93*</a></td></tr>
+<tr><td id="pk127" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SAMSUNG%20HD103SJ&amp;id=127">SAMSUNG HD103SJ</a></td>
+<td id="pt127" class="value"><div class="meter blue"><span style="width: 3%" onmouseout="HTAD()" onmouseover="value_STAD(event,60,839,3025,&#39;931.5 GB&#39;)"></span>12.93</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=SAMSUNG%20HD103SJ&amp;id=127#price">$64.89</a></td></tr>
+<tr><td id="pk3023" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS721010A9E630&amp;id=3023">HGST HTS721010A9E630</a></td>
+<td id="pt3023" class="value"><div class="meter pink"><span style="width: 3%" onmouseout="HTAD()" onmouseover="value_STAD(event,61,814,4480,&#39;931.5 GB&#39;)"></span>12.53</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS721010A9E630&amp;id=3023#price">$64.99*</a></td></tr>
+<tr><td id="pk30" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD1002FAEX&amp;id=30">WDC WD1002FAEX</a></td>
+<td id="pt30" class="value"><div class="meter yellow"><span style="width: 6%" onmouseout="HTAD()" onmouseover="value_STAD(event,62,768,4191,&#39;931.5 GB&#39;)"></span>21.34</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD1002FAEX&amp;id=30#price">$35.99</a></td></tr>
+<tr><td id="pk2991" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS725050A7E630&amp;id=2991">HGST HTS725050A7E630</a></td>
+<td id="pt2991" class="value"><div class="meter green"><span style="width: 0%" onmouseout="HTAD()" onmouseover="value_STAD(event,63,765,2406,&#39;465.8 GB&#39;)"></span>0.13</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS725050A7E630&amp;id=2991#price">$5,780.95*</a></td></tr>
+<tr><td id="pk116" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000AAKX&amp;id=116">WDC WD5000AAKX</a></td>
+<td id="pt116" class="value"><div class="meter light-purple"><span style="width: 10%" onmouseout="HTAD()" onmouseover="value_STAD(event,64,744,11071,&#39;465.8 GB&#39;)"></span>37.24</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000AAKX&amp;id=116#price">$19.98</a></td></tr>
+<tr><td id="pk104" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST3500418AS&amp;id=104">Seagate ST3500418AS</a></td>
+<td id="pt104" class="value"><div class="meter red"><span style="width: 7%" onmouseout="HTAD()" onmouseover="value_STAD(event,65,738,5867,&#39;465.8 GB&#39;)"></span>25.46</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST3500418AS&amp;id=104#price">$28.99</a></td></tr>
+<tr><td id="pk176" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST3500413AS&amp;id=176">Seagate ST3500413AS</a></td>
+<td id="pt176" class="value"><div class="meter turquoise"><span style="width: 2%" onmouseout="HTAD()" onmouseover="value_STAD(event,66,732,2864,&#39;465.8 GB&#39;)"></span>10.17</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST3500413AS&amp;id=176#price">$71.99*</a></td></tr>
+<tr><td id="pk57" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST31000524AS&amp;id=57">Seagate ST31000524AS</a></td>
+<td id="pt57" class="value"><div class="meter orange"><span style="width: 2%" onmouseout="HTAD()" onmouseover="value_STAD(event,67,704,5036,&#39;931.5 GB&#39;)"></span>10.06</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST31000524AS&amp;id=57#price">$69.99</a></td></tr>
+<tr><td id="pk34" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST31000528AS&amp;id=34">Seagate ST31000528AS</a></td>
+<td id="pt34" class="value"><div class="meter brown"><span style="width: 2%" onmouseout="HTAD()" onmouseover="value_STAD(event,68,691,4664,&#39;931.5 GB&#39;)"></span>7.12</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST31000528AS&amp;id=34#price">$97.00*</a></td></tr>
+<tr><td id="pk973" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20MQ01ABD100&amp;id=973">TOSHIBA MQ01ABD100</a></td>
+<td id="pt973" class="value"><div class="meter purple"><span style="width: 5%" onmouseout="HTAD()" onmouseover="value_STAD(event,69,690,7900,&#39;931.5 GB&#39;)"></span>17.30</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20MQ01ABD100&amp;id=973#price">$39.88</a></td></tr>
+<tr><td id="pk4977" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10JPVX&amp;id=4977">WDC WD10JPVX</a></td>
+<td id="pt4977" class="value"><div class="meter blue"><span style="width: 2%" onmouseout="HTAD()" onmouseover="value_STAD(event,70,690,5956,&#39;931.5 GB&#39;)"></span>7.88</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10JPVX&amp;id=4977#price">$87.58*</a></td></tr>
+<tr><td id="pk100" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST3250318AS&amp;id=100">Seagate ST3250318AS</a></td>
+<td id="pt100" class="value"><div class="meter pink"><span style="width: 9%" onmouseout="HTAD()" onmouseover="value_STAD(event,71,686,2005,&#39;232.9 GB&#39;)"></span>32.68</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST3250318AS&amp;id=100#price">$20.99</a></td></tr>
+<tr><td id="pk4668" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20MQ01ABF050&amp;id=4668">TOSHIBA MQ01ABF050</a></td>
+<td id="pt4668" class="value"><div class="meter yellow"><span style="width: 6%" onmouseout="HTAD()" onmouseover="value_STAD(event,72,684,4143,&#39;465.8 GB&#39;)"></span>22.81</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20MQ01ABF050&amp;id=4668#price">$29.99</a></td></tr>
+<tr><td id="pk80" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Hitachi%20HDS721010CLA332&amp;id=80">Hitachi HDS721010CLA332</a></td>
+<td id="pt80" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Hitachi%20HDS721010CLA332&amp;id=80#price">NA</a></td></tr>
+<tr><td id="pk4722" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000LPVX&amp;id=4722">WDC WD5000LPVX</a></td>
+<td id="pt4722" class="value"><div class="meter light-purple"><span style="width: 1%" onmouseout="HTAD()" onmouseover="value_STAD(event,74,672,3617,&#39;465.8 GB&#39;)"></span>5.33</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000LPVX&amp;id=4722#price">$126.17*</a></td></tr>
+<tr><td id="pk133" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD6400AAKS&amp;id=133">WDC WD6400AAKS</a></td>
+<td id="pt133" class="value"><div class="meter red"><span style="width: 3%" onmouseout="HTAD()" onmouseover="value_STAD(event,75,661,2965,&#39;596.2 GB&#39;)"></span>11.60</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD6400AAKS&amp;id=133#price">$56.99*</a></td></tr>
+<tr><td id="pk4432" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000LM014&amp;id=4432">Seagate ST1000LM014</a></td>
+<td id="pt4432" class="value"><div class="meter turquoise"><span style="width: 1%" onmouseout="HTAD()" onmouseover="value_STAD(event,76,658,4622,&#39;931.5 GB&#39;)"></span>4.58</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000LM014&amp;id=4432#price">$143.67</a></td></tr>
+<tr><td id="pk2370" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST500LT012&amp;id=2370">Seagate ST500LT012</a></td>
+<td id="pt2370" class="value"><div class="meter orange"><span style="width: 5%" onmouseout="HTAD()" onmouseover="value_STAD(event,77,648,8097,&#39;465.8 GB&#39;)"></span>20.58</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST500LT012&amp;id=2370#price">$31.49</a></td></tr>
+<tr><td id="pk362" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000LM024&amp;id=362">Seagate ST1000LM024</a></td>
+<td id="pt362" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000LM024&amp;id=362#price">NA</a></td></tr>
+<tr><td id="pk359" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20MQ01ABD075&amp;id=359">TOSHIBA MQ01ABD075</a></td>
+<td id="pt359" class="value"><div class="meter purple"><span style="width: 4%" onmouseout="HTAD()" onmouseover="value_STAD(event,79,640,2885,&#39;698.6 GB&#39;)"></span>14.23</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=TOSHIBA%20MQ01ABD075&amp;id=359#price">$44.99</a></td></tr>
+<tr><td id="pk32" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000AAKS&amp;id=32">WDC WD5000AAKS</a></td>
+<td id="pt32" class="value"><div class="meter blue"><span style="width: 4%" onmouseout="HTAD()" onmouseover="value_STAD(event,80,634,6239,&#39;465.8 GB&#39;)"></span>15.85</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000AAKS&amp;id=32#price">$39.99*</a></td></tr>
+<tr><td id="pk3801" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS541010A9E680&amp;id=3801">HGST HTS541010A9E680</a></td>
+<td id="pt3801" class="value"><div class="meter pink"><span style="width: 3%" onmouseout="HTAD()" onmouseover="value_STAD(event,81,631,4711,&#39;931.5 GB&#39;)"></span>11.91</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS541010A9E680&amp;id=3801#price">$52.99</a></td></tr>
+<tr><td id="pk21059" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST500LM000&amp;id=21059">Seagate ST500LM000</a></td>
+<td id="pt21059" class="value">NA</td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST500LM000&amp;id=21059#price">NA</a></td></tr>
+<tr><td id="pk5566" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS545050A7E680&amp;id=5566">HGST HTS545050A7E680</a></td>
+<td id="pt5566" class="value"><div class="meter green"><span style="width: 0%" onmouseout="HTAD()" onmouseover="value_STAD(event,83,610,2574,&#39;465.8 GB&#39;)"></span>0.24</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=HGST%20HTS545050A7E680&amp;id=5566#price">$2,573.03*</a></td></tr>
+<tr><td id="pk64" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200AAJS&amp;id=64">WDC WD3200AAJS</a></td>
+<td id="pt64" class="value"><div class="meter light-purple"><span style="width: 10%" onmouseout="HTAD()" onmouseover="value_STAD(event,84,604,3371,&#39;296.6 GB&#39;)"></span>35.78</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200AAJS&amp;id=64#price">$16.88</a></td></tr>
+<tr><td id="pk502" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST750LM022&amp;id=502">Seagate ST750LM022</a></td>
+<td id="pt502" class="value"><div class="meter red"><span style="width: 2%" onmouseout="HTAD()" onmouseover="value_STAD(event,85,603,2337,&#39;698.6 GB&#39;)"></span>6.93</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST750LM022&amp;id=502#price">$87.00</a></td></tr>
+<tr><td id="pk389" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Hitachi%20HTS545050A7E380&amp;id=389">Hitachi HTS545050A7E380</a></td>
+<td id="pt389" class="value"><div class="meter turquoise"><span style="width: 1%" onmouseout="HTAD()" onmouseover="value_STAD(event,86,601,2477,&#39;465.8 GB&#39;)"></span>3.81</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Hitachi%20HTS545050A7E380&amp;id=389#price">$157.95</a></td></tr>
+<tr><td id="pk219" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200AAKS&amp;id=219">WDC WD3200AAKS</a></td>
+<td id="pt219" class="value"><div class="meter orange"><span style="width: 9%" onmouseout="HTAD()" onmouseover="value_STAD(event,87,595,2674,&#39;298.1 GB&#39;)"></span>32.16</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200AAKS&amp;id=219#price">$18.50</a></td></tr>
+<tr><td id="pk273" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200BEKT&amp;id=273">WDC WD3200BEKT</a></td>
+<td id="pt273" class="value"><div class="meter brown"><span style="width: 4%" onmouseout="HTAD()" onmouseover="value_STAD(event,88,593,1963,&#39;298.1 GB&#39;)"></span>16.95</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200BEKT&amp;id=273#price">$34.99*</a></td></tr>
+<tr><td id="pk12323" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000LM035&amp;id=12323">Seagate ST1000LM035</a></td>
+<td id="pt12323" class="value"><div class="meter purple"><span style="width: 4%" onmouseout="HTAD()" onmouseover="value_STAD(event,89,589,2155,&#39;931.5 GB&#39;)"></span>15.30</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST1000LM035&amp;id=12323#price">$38.50</a></td></tr>
+<tr><td id="pk70" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EARS&amp;id=70">WDC WD10EARS</a></td>
+<td id="pt70" class="value"><div class="meter blue"><span style="width: 1%" onmouseout="HTAD()" onmouseover="value_STAD(event,90,581,2629,&#39;931.5 GB&#39;)"></span>6.76</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EARS&amp;id=70#price">$86.00</a></td></tr>
+<tr><td id="pk7" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EADS&amp;id=7">WDC WD10EADS</a></td>
+<td id="pt7" class="value"><div class="meter pink"><span style="width: 2%" onmouseout="HTAD()" onmouseover="value_STAD(event,91,575,2113,&#39;931.5 GB&#39;)"></span>8.71</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD10EADS&amp;id=7#price">$66.01*</a></td></tr>
+<tr><td id="pk88" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD7500BPVT&amp;id=88">WDC WD7500BPVT</a></td>
+<td id="pt88" class="value"><div class="meter yellow"><span style="width: 1%" onmouseout="HTAD()" onmouseover="value_STAD(event,92,568,2537,&#39;698.6 GB&#39;)"></span>5.69</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD7500BPVT&amp;id=88#price">$99.89*</a></td></tr>
+<tr><td id="pk73" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD1600AAJS&amp;id=73">WDC WD1600AAJS</a></td>
+<td id="pt73" class="value"><div class="meter green"><span style="width: 11%" onmouseout="HTAD()" onmouseover="value_STAD(event,93,556,2959,&#39;149 GB&#39;)"></span>39.74</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD1600AAJS&amp;id=73#price">$13.99</a></td></tr>
+<tr><td id="pk805" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000BPVT&amp;id=805">WDC WD5000BPVT</a></td>
+<td id="pt805" class="value"><div class="meter light-purple"><span style="width: 3%" onmouseout="HTAD()" onmouseover="value_STAD(event,94,520,2402,&#39;465.8 GB&#39;)"></span>11.96</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000BPVT&amp;id=805#price">$43.49*</a></td></tr>
+<tr><td id="pk247" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST9500420AS&amp;id=247">Seagate ST9500420AS</a></td>
+<td id="pt247" class="value"><div class="meter red"><span style="width: 3%" onmouseout="HTAD()" onmouseover="value_STAD(event,95,508,2698,&#39;465.8 GB&#39;)"></span>13.03</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST9500420AS&amp;id=247#price">$38.99</a></td></tr>
+<tr><td id="pk529" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Hitachi%20HTS547575A9E384&amp;id=529">Hitachi HTS547575A9E384</a></td>
+<td id="pt529" class="value"><div class="meter turquoise"><span style="width: 3%" onmouseout="HTAD()" onmouseover="value_STAD(event,96,495,3247,&#39;698.6 GB&#39;)"></span>12.63</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Hitachi%20HTS547575A9E384&amp;id=529#price">$39.19</a></td></tr>
+<tr><td id="pk294" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200BPVT&amp;id=294">WDC WD3200BPVT</a></td>
+<td id="pt294" class="value"><div class="meter orange"><span style="width: 3%" onmouseout="HTAD()" onmouseover="value_STAD(event,97,481,2445,&#39;298.1 GB&#39;)"></span>11.19</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200BPVT&amp;id=294#price">$43.00</a></td></tr>
+<tr><td id="pk295" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000BEVT&amp;id=295">WDC WD5000BEVT</a></td>
+<td id="pt295" class="value"><div class="meter brown"><span style="width: 1%" onmouseout="HTAD()" onmouseover="value_STAD(event,98,451,2264,&#39;465.8 GB&#39;)"></span>4.10</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD5000BEVT&amp;id=295#price">$109.89*</a></td></tr>
+<tr><td id="pk147" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200BEVT&amp;id=147">WDC WD3200BEVT</a></td>
+<td id="pt147" class="value"><div class="meter purple"><span style="width: 1%" onmouseout="HTAD()" onmouseover="value_STAD(event,99,417,3045,&#39;298.1 GB&#39;)"></span>5.03</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=WDC%20WD3200BEVT&amp;id=147#price">$82.89*</a></td></tr>
+<tr><td id="pk220" class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST9500325AS&amp;id=220">Seagate ST9500325AS</a></td>
+<td id="pt220" class="value"><div class="meter blue"><span style="width: 3%" onmouseout="HTAD()" onmouseover="value_STAD(event,100,414,5746,&#39;465.8 GB&#39;)"></span>10.62</div></td>
+<td class="chart"><a href="https://www.harddrivebenchmark.net/hdd.php?hdd=Seagate%20ST9500325AS&amp;id=220#price">$38.99*</a></td></tr>
+<tr><td class="chart">PassMark Software © 2008-2019</td>
+<td class="value"></td><td class="chart"></td></tr>
+</tbody></table>
+<div class="notes"><em>* - Last price seen from our affiliates.</em></div>
+    </div>
+    <p>
+      <script type="text/javascript"><!--
+    google_ad_client = "pub-3033133245606581";
+    /* HDD Benchmarks - Mid-Range, 728x90, Footer */
+    google_ad_slot = "9945254383";
+    google_ad_width = 728;
+    google_ad_height = 90;
+    //-->
+    </script>
+      <script type="text/javascript" src="./PassMark Software - Hard Drive Benchmark Charts_files/f.txt">
+    </script>
+    </p>
+    <br>
+<div class="footerNav">
+  <a href="https://www.harddrivebenchmark.net/index.php">[Home]</a><strong> - </strong>
+	<a href="https://www.harddrivebenchmark.net/hdd_list.php">[Searchable Hard Drive List]</a><strong> - </strong>
+	<a href="https://www.harddrivebenchmark.net/graph_notes.html">[Graph Notes]</a><strong> - </strong>
+	<a href="https://www.harddrivebenchmark.net/hddnaming.html">[HDD Naming Conventions]</a>
+</div>
+<div class="footerNav">
+  <a href="https://www.harddrivebenchmark.net/common_drives.html">[Common Drive Chart]</a><strong> - </strong>
+  <a href="https://www.harddrivebenchmark.net/hdd_value.html">[Best Value Chart]</a><strong> - </strong>
+  <a href="https://www.harddrivebenchmark.net/ssd.html">[SSD Chart]</a><strong> - </strong>
+  <a href="https://www.harddrivebenchmark.net/30dayshare.html">[30 Day Market Share]</a>
+</div>
+<div class="footerNav">
+  <a href="https://www.harddrivebenchmark.net/high_end_drives.html">[High End Drives]</a><strong> - </strong>
+  <a href="https://www.harddrivebenchmark.net/mid_range_drives.html">[High-Mid Range Drives]</a>
+  <a href="https://www.harddrivebenchmark.net/low_mid_range_drives.html">[Low-Mid Range Drives]</a><strong> - </strong>
+	<a href="https://www.harddrivebenchmark.net/low_end_drives.html">[Low End Drives]</a>
+
+</div>
+<br>  </div>
+  <div class="contentborder"><b class="rbottom"><b class="r4"></b><b class="r3"></b><b class="r2"></b><b class="r1"></b></b></div>
+  <!--ZOOMSTOP-->
+<div class="footer">
+Copyright © 2019 PassMark® Software<br>
+<a href="http://www.passmark.com/international.htm">International</a> | <a href="http://www.passmark.com/legal/disclaimer.htm">Legal disclaimer</a> | <a href="http://www.passmark.com/legal/refund.htm">Policies</a> | <a href="http://www.passmark.com/about/contact_us.htm">Contact Us</a>
+</div>
+<!--ZOOMRESTART-->
+</center>
+
+<script type="text/javascript">
+
+	function flip( show, hide ) {
+		var showMe = document.getElementById(show);
+		showMe.style.display='';
+		var hideMe = document.getElementById(hide);
+		hideMe.style.display='none';
+	}
+
+	var hash_value = location.hash;
+	if( hash_value == '#value' ) {
+		var showMe = document.getElementById('value');
+		showMe.style.display='';
+		var hideMe = document.getElementById('mark');
+		hideMe.style.display='none';
+	} else {
+		var showMe = document.getElementById('mark');
+		showMe.style.display='';
+		var hideMe = document.getElementById('value');
+		hideMe.style.display='none';
+	}
+</script>
+
+
+</body></html>
