@@ -24,3 +24,14 @@ def getDriveCapacity():
 def getDrivenames():
     get_drive_names = "wmic diskdrive get caption"
     return subprocess.call(get_drive_names, shell=True)
+
+
+print(getGPUname())
+print('\n\n')
+print(getCPUname())
+print('\n\n')
+print(getRAMinfo())
+print('\n\n')
+print(getDriveCapacity())
+print('\n\n')
+print(getDrivenames())

@@ -1,4 +1,4 @@
-#youNeedHelpUpgrading.py v0.1
+# youNeedHelpUpgrading.py v0.1
 import sys
 import time
 import os
@@ -47,7 +47,7 @@ while type(PassMark) is not int:
     except Exception as e:
         PassMark = input("'" + e + "'" + ' is not an integer value, try again: ')
 
-#Constant * Weighted Harmonic Mean
+# Constant * Weighted Harmonic Mean
 equation = int(round(1 / (((1 / (CPU * 0.396566187)) + (1 / (TwoD * 3.178718116)) + (1 / (ThreeD * 2.525195879)) + (1 / (Memory * 1.757085479)) + (1 / (Disk * 1.668158805)))/5)))
 whm = stats.hmean([CPU * 0.396566187, TwoD * 3.178718116, ThreeD * 2.525195879, Memory * 1.757085479, Disk * 1.668158805])
 
@@ -56,7 +56,7 @@ if equation != PassMark:
     time.sleep(1)
     os.execl(sys.executable, sys.executable, *sys.argv) #wont work if .py file's path is stored in a directory with a ' ', try subprocesses, like subprocess.call(sys.executable + ' "' + os.path.realpath(__file__) + '"') NOTE: could create infinite process until out of memory
 
-#Quantify preformance
+# Quantify preformance
 performance = 0
 if PassMark < 1260:
     performance = 1
@@ -67,9 +67,9 @@ elif PassMark < 5200:
 else:
     performance = 4
 
-#https://www.pcbenchmarks.net/builder.php
+# https://www.pcbenchmarks.net/builder.php
 
-#What preformance do they want
+# What preformance do they want
 use = input('What do you wish to use your computer for? \n (1)Web browsing / Office \n (2)Video Games \n (3)Workstation \nChoice: ')
 while type(use) is not int:
     try:
@@ -102,9 +102,9 @@ elif use == 3:
     if level < 5:
         use = 4
 
-#Return where there computer is preforming
+# Return where there computer is preforming
 if performance >= use:
     print('Your computer is capable of the tasks you require of it.')
 else:
     print('Your computer should be upgraded to more adequately fufill the tasks required of it.')
-    #this is where it would call the other parts of the program
+    # this is where it would call the other parts of the program

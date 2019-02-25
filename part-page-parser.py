@@ -11,6 +11,7 @@ context = ssl.create_default_context()
 context.check_hostname = False
 context.verify_mode = ssl.CERT_NONE
 
+
 # LIST FORMAT: ('name', 'score', 'price')
 # 'price' could equal 'NA'
 
@@ -133,21 +134,17 @@ def getDrivelist():
     return newdrivelist
 
 
-# Get all the text from the PCPartPicker RAM section, slim down to only RAM
+def getRAMlist():
+    # FORMAT [('name', 'type', 'speed', 'size', 'price/GB', 'price')]
+    return [('G.Skill NT Series', 'DDR4', '2133 Mhz', '8 GB', '$5.50', '$43.98'),
+            ('Team Vulcan', 'DDR4', '2400 Mhz', '8 GB', '$5.62', '$44.99'),
+            ('Crucial Ballistix Sport LT', 'DDR4', '2666 Mhz', '8 GB', '$5.74', '$45.89')]
 
-url = 'https://pcpartpicker.com/products/memory/#R=5,4,3&X=1466,281794&sort=-rating&page=1'
 
-user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
-
-headers = {'User-Agent': user_agent, }
-
-request = urllib.request.Request(url, None, headers)
-response = urllib.request.urlopen(request).read()
-
-soup = BeautifulSoup(response, 'html.parser')
-
-RAMlist = soup.get_text().split('\n')
-
-RAMlist = RAMlist[:]
-
-print(RAMlist)
+print(getGPUlist())
+print('\n\n')
+print(getCPUlist())
+print('\n\n')
+print(getDrivelist())
+print('\n\n')
+print(getRAMlist())
