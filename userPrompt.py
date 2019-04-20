@@ -107,4 +107,3 @@ if performance >= use:
     print('Your computer is capable of the tasks you require of it.')
 else:
     print('Your computer should be upgraded to more adequately fufill the tasks required of it.')
-    # this is where it would call the other parts of the program
