@@ -1,3 +1,6 @@
+# Main file for the UI
+# Use this file to make changes to elements of the UI
+
 import sys
 from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtWidgets import QApplication, QDialog
@@ -34,8 +37,11 @@ class MainPage(QDialog):
         self.textEdit_2.setText(words)
 
 
-# pyuic5 Homepage.ui > Homepage.py
-
+# pyuic5 guiLayout.ui > guiLayout.py is the command to turn ui into code
+# plainTextEdit to collect text
+# textEdit to display text
+# pushButton to use as a button
+# comboBox to have a drop down choice thing
 
 app = QApplication(sys.argv)
 widget = MainPage()
