@@ -71,7 +71,11 @@ class MainPage(QDialog):
         # change text of verdict box
         self.textEdit_11.setText("Final Verdict: Waiting on choice for second question...")
 
-        if self.use == 2:
+        if self.use == 1:
+            self.submitQuestion2()
+            self.textEdit_10.setText("")
+
+        elif self.use == 2:
             self.textEdit_10.setText("At medium settings, what framerate do you hope to achieve?")
             # fill the comboBox for question 2
             options = ["30 fps", "60 fps", "144 fps"]
