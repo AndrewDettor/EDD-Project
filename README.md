@@ -14,11 +14,11 @@ The third part should attempt to troubleshoot why the PC is underperforming and 
 The IDC predicts that over 2.4 trillion dollars on technology in 2018 and that 74% of this is on upgrading existing technology. However, no tool exists for determining whether upgrading a slow computer or phone is justified. Nor for seeing if the technology can be sped up without upgrading it.
 
 ### Goals and Non-Goals
-- Accurately sort a computer into one of three categories
+- Accurately sort a computer into one of three categories (DONE)
    1. Browsing
    2. Gaming
    3. Workstation
-- Offer the correct recommendations for computer part upgrades relative to it's category
+- Offer the correct recommendations for computer part upgrades relative to it's category (DONE)
 - Detect and fix performance issues that are within the scope of the OS (i.e., more than hardware recommendations)
 
 ### Proposed Solution
@@ -38,14 +38,14 @@ Develop the benchmarking software in-house
   - Not really practical as it would take years and significantly more CS knowledge than the devs posses
 
 ### Testing Methods
-Part 1: Identification
+Part 1: Performance Identification
 1. Run program on a computer which has already been defined as a browsing, gaming, or workstation computer.
 2. Compare the experimental return value of the program to the actual value given to it.
 3. Compare the two values to see if they match. A match represents a success. A non-match represents a failure.
 
-Part 2: Comparison
-1. Run program on a computer which has been purposely filled with bloat ware, a bad memory stick, and drive at or near maximum capacity.
-2. Compare the results
+Part 2: Part Identification
+1. Run program on a computer who's parts have already been identified.
+2. Compare the parts the program returns to the parts the parts the PC actually has.
 
 Part 3: Improvement
 1. Run Passmark Benchmarking Software on a clean OS.
@@ -55,12 +55,30 @@ Part 3: Improvement
 5. Run PassMark Benchmarking Software again.
 6. Compare final results to the initial and intermediate results to see how well the program cleaned up the OS.
 
+Part 4: Minimum Computer Requirements
+1. Run program on VM
+2. Record average idle memory usage by guiMain.py
+3. Record average idle cpu usage of guiMain.py
+4. Attempt python 2.7 operation
+5. Determine .exe functionality
+
 ### User Story
 TBD
 
-### Timeline
-n/a
+### Remaining Items
+- Turn pull_parts and part-page-parser into classes
+- Return user specific recommendations based on basic or advanced option
+- Integrate computer improvement tools
 
 ### Milestones
 Date: 2/20/2019
-Summary: The computer program is able to accurtely identify computers as one of the three categories. It is also able to offer hardware recommendations, however, because of faulty string comparisons, it sometimes recommends parts the user already has.
+Summary: The computer program is able to accurately identify computers as one of the three categories. It is also able to offer hardware recommendations, however, because of faulty string comparisons, it sometimes recommends parts the user already has.
+
+Date: 3/19/2019
+Summary: The pull_parts and part-page-parser are fully completed, but need to be turned into classes.
+
+Date: 4/15/2019
+Summary: The GUI is fully functional, however, issues with threading occur and cause the program to crash.
+
+Date: 4/29/2019
+Summary: Most GUI issues have been resolved but not with threading as it is too complicated with the program in it's current state. However, when importing multiple other python files, issues occur during method calling
