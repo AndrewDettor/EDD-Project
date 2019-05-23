@@ -11,46 +11,52 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
-        Dialog.resize(1089, 766)
+        Dialog.resize(1089, 777)
         Dialog.setStyleSheet("")
         self.textEdit = QtWidgets.QTextEdit(Dialog)
         self.textEdit.setGeometry(QtCore.QRect(0, 0, 391, 181))
         self.textEdit.setObjectName("textEdit")
         self.textEdit_2 = QtWidgets.QTextEdit(Dialog)
-        self.textEdit_2.setGeometry(QtCore.QRect(30, 440, 141, 41))
+        self.textEdit_2.setGeometry(QtCore.QRect(30, 470, 141, 41))
         self.textEdit_2.setObjectName("textEdit_2")
         self.textEdit_3 = QtWidgets.QTextEdit(Dialog)
-        self.textEdit_3.setGeometry(QtCore.QRect(30, 220, 104, 41))
+        self.textEdit_3.setGeometry(QtCore.QRect(30, 260, 104, 41))
         self.textEdit_3.setObjectName("textEdit_3")
         self.textEdit_4 = QtWidgets.QTextEdit(Dialog)
-        self.textEdit_4.setGeometry(QtCore.QRect(30, 360, 91, 41))
+        self.textEdit_4.setGeometry(QtCore.QRect(30, 400, 91, 41))
         self.textEdit_4.setObjectName("textEdit_4")
         self.textEdit_5 = QtWidgets.QTextEdit(Dialog)
-        self.textEdit_5.setGeometry(QtCore.QRect(30, 290, 91, 41))
+        self.textEdit_5.setGeometry(QtCore.QRect(30, 330, 91, 41))
         self.textEdit_5.setObjectName("textEdit_5")
         self.textEdit_6 = QtWidgets.QTextEdit(Dialog)
-        self.textEdit_6.setGeometry(QtCore.QRect(30, 520, 104, 41))
+        self.textEdit_6.setGeometry(QtCore.QRect(30, 540, 104, 41))
         self.textEdit_6.setObjectName("textEdit_6")
         self.textEdit_7 = QtWidgets.QTextEdit(Dialog)
-        self.textEdit_7.setGeometry(QtCore.QRect(30, 590, 104, 61))
+        self.textEdit_7.setGeometry(QtCore.QRect(30, 600, 104, 61))
         self.textEdit_7.setObjectName("textEdit_7")
         self.plainTextEdit = QtWidgets.QPlainTextEdit(Dialog)
-        self.plainTextEdit.setGeometry(QtCore.QRect(170, 220, 81, 41))
+        self.plainTextEdit.setGeometry(QtCore.QRect(210, 260, 91, 51))
+        self.plainTextEdit.setPlainText("")
         self.plainTextEdit.setObjectName("plainTextEdit")
         self.plainTextEdit_2 = QtWidgets.QPlainTextEdit(Dialog)
-        self.plainTextEdit_2.setGeometry(QtCore.QRect(170, 290, 91, 41))
+        self.plainTextEdit_2.setGeometry(QtCore.QRect(210, 330, 91, 51))
+        self.plainTextEdit_2.setPlainText("")
         self.plainTextEdit_2.setObjectName("plainTextEdit_2")
         self.plainTextEdit_3 = QtWidgets.QPlainTextEdit(Dialog)
-        self.plainTextEdit_3.setGeometry(QtCore.QRect(170, 360, 91, 41))
+        self.plainTextEdit_3.setGeometry(QtCore.QRect(210, 400, 91, 51))
+        self.plainTextEdit_3.setPlainText("")
         self.plainTextEdit_3.setObjectName("plainTextEdit_3")
         self.plainTextEdit_4 = QtWidgets.QPlainTextEdit(Dialog)
-        self.plainTextEdit_4.setGeometry(QtCore.QRect(210, 440, 91, 41))
+        self.plainTextEdit_4.setGeometry(QtCore.QRect(210, 470, 91, 51))
+        self.plainTextEdit_4.setPlainText("")
         self.plainTextEdit_4.setObjectName("plainTextEdit_4")
         self.plainTextEdit_5 = QtWidgets.QPlainTextEdit(Dialog)
-        self.plainTextEdit_5.setGeometry(QtCore.QRect(180, 520, 91, 41))
+        self.plainTextEdit_5.setGeometry(QtCore.QRect(210, 540, 91, 51))
+        self.plainTextEdit_5.setPlainText("")
         self.plainTextEdit_5.setObjectName("plainTextEdit_5")
         self.plainTextEdit_6 = QtWidgets.QPlainTextEdit(Dialog)
-        self.plainTextEdit_6.setGeometry(QtCore.QRect(180, 600, 91, 41))
+        self.plainTextEdit_6.setGeometry(QtCore.QRect(210, 610, 91, 51))
+        self.plainTextEdit_6.setPlainText("")
         self.plainTextEdit_6.setObjectName("plainTextEdit_6")
         self.textEdit_8 = QtWidgets.QTextEdit(Dialog)
         self.textEdit_8.setGeometry(QtCore.QRect(450, 30, 571, 41))
@@ -68,7 +74,7 @@ class Ui_Dialog(object):
         self.comboBox_2.setGeometry(QtCore.QRect(620, 440, 191, 22))
         self.comboBox_2.setObjectName("comboBox_2")
         self.pushButton = QtWidgets.QPushButton(Dialog)
-        self.pushButton.setGeometry(QtCore.QRect(90, 670, 111, 81))
+        self.pushButton.setGeometry(QtCore.QRect(110, 680, 111, 81))
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(Dialog)
         self.pushButton_2.setGeometry(QtCore.QRect(650, 250, 131, 51))
@@ -77,8 +83,14 @@ class Ui_Dialog(object):
         self.pushButton_3.setGeometry(QtCore.QRect(650, 490, 131, 51))
         self.pushButton_3.setObjectName("pushButton_3")
         self.textEdit_11 = QtWidgets.QTextEdit(Dialog)
-        self.textEdit_11.setGeometry(QtCore.QRect(530, 650, 371, 51))
+        self.textEdit_11.setGeometry(QtCore.QRect(540, 670, 371, 51))
         self.textEdit_11.setObjectName("textEdit_11")
+        self.textEdit_12 = QtWidgets.QTextEdit(Dialog)
+        self.textEdit_12.setGeometry(QtCore.QRect(30, 200, 111, 31))
+        self.textEdit_12.setObjectName("textEdit_12")
+        self.textEdit_13 = QtWidgets.QTextEdit(Dialog)
+        self.textEdit_13.setGeometry(QtCore.QRect(180, 200, 161, 31))
+        self.textEdit_13.setObjectName("textEdit_13")
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
@@ -123,12 +135,6 @@ class Ui_Dialog(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; text-decoration: underline;\">Passmark Score</span></p></body></html>"))
-        self.plainTextEdit.setPlainText(_translate("Dialog", "Enter Score"))
-        self.plainTextEdit_2.setPlainText(_translate("Dialog", "Enter Score"))
-        self.plainTextEdit_3.setPlainText(_translate("Dialog", "Enter Score"))
-        self.plainTextEdit_4.setPlainText(_translate("Dialog", "Enter Score"))
-        self.plainTextEdit_5.setPlainText(_translate("Dialog", "Enter Score"))
-        self.plainTextEdit_6.setPlainText(_translate("Dialog", "Enter Score"))
         self.textEdit_8.setHtml(_translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
@@ -152,4 +158,14 @@ class Ui_Dialog(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">Final Verdict: Waiting on Scores...</span></p></body></html>"))
+        self.textEdit_12.setHtml(_translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; text-decoration: underline;\">Categories</span></p></body></html>"))
+        self.textEdit_13.setHtml(_translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; text-decoration: underline;\">Enter Scores Below</span></p></body></html>"))
 
