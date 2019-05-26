@@ -74,7 +74,7 @@ class Ui_Dialog(object):
         self.comboBox_2.setGeometry(QtCore.QRect(620, 460, 191, 22))
         self.comboBox_2.setObjectName("comboBox_2")
         self.pushButton = QtWidgets.QPushButton(Dialog)
-        self.pushButton.setGeometry(QtCore.QRect(110, 680, 111, 81))
+        self.pushButton.setGeometry(QtCore.QRect(200, 680, 111, 81))
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(Dialog)
         self.pushButton_2.setGeometry(QtCore.QRect(650, 250, 131, 51))
@@ -91,6 +91,9 @@ class Ui_Dialog(object):
         self.textEdit_13 = QtWidgets.QTextEdit(Dialog)
         self.textEdit_13.setGeometry(QtCore.QRect(180, 200, 161, 31))
         self.textEdit_13.setObjectName("textEdit_13")
+        self.pushButton_4 = QtWidgets.QPushButton(Dialog)
+        self.pushButton_4.setGeometry(QtCore.QRect(30, 707, 101, 31))
+        self.pushButton_4.setObjectName("pushButton_4")
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
@@ -168,4 +171,5 @@ class Ui_Dialog(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; text-decoration: underline;\">Enter Scores Below</span></p></body></html>"))
+        self.pushButton_4.setText(_translate("Dialog", "HELP"))
 

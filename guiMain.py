@@ -9,7 +9,8 @@
 
 import sys
 from PyQt5.QtCore import pyqtSlot
-from PyQt5.QtWidgets import QApplication, QDialog
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QDialog
+from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.uic import loadUi
 
 
@@ -27,6 +28,12 @@ class MainPage(QDialog):
         self.pushButton.clicked.connect(self.submitScores)
         self.pushButton_2.clicked.connect(self.submitQuestion1)
         self.pushButton_3.clicked.connect(self.submitQuestion2)
+        self.pushButton_4.clicked.connect(self.moveToHelpPage)
+
+    def moveToHelpPage(self):
+        from helpMain import HelpPage
+        help = HelpPage()
+        help.exec_()
 
     def submitScores(self):
         if not self.submitButtonHit and not self.question1Hit and not self.question2Hit:

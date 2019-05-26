@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="cpu">
+    <file>cpu_picture.jpg</file>
+  </qresource>
+  <qresource prefix="passmark">
+    <file>passmark_picture.png</file>
+  </qresource>
+  <qresource prefix="gpu">
+    <file>gpu_picture.jpg</file>
+  </qresource>
+  <qresource prefix="ram">
+    <file>ram_picture.jpg</file>
+  </qresource>
+  <qresource prefix="disk">
+    <file>disk_picture.jpg</file>
+  </qresource>
+</RCC>
