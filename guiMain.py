@@ -10,11 +10,29 @@
 import sys
 from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QDialog
+from PyQt5 import QtWidgets
 from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.uic import loadUi
+from secondWindow import Ui_MainWindow
 
 
 class MainPage(QDialog):
+    upgradeComputer = 0
+    choice2 = ''
+    scoresList = []
+    
+    def openWindow(self):
+        self.window = QtWidgets.QMainWindow()
+        self.ui = Ui_MainWindow()
+
+        global scoresList
+        temp = scoresList
+        for x in range(len(temp)):
+            temp[x] = int(temp[x])
+        
+        self.ui.setupUi(self.window,upgradeComputer,choice2,temp)
+        self.window.show()
+    
     def __init__(self):
         super(MainPage, self).__init__()
         loadUi('guiLayout.ui', self)
@@ -35,9 +53,18 @@ class MainPage(QDialog):
         help = HelpPage()
         help.exec_()
 
+    sys._excepthook = sys.excepthook 
+    def exception_hook(exctype, value, traceback):
+        print(exctype, value, traceback)
+        sys._excepthook(exctype, value, traceback) 
+        sys.exit(1) 
+    sys.excepthook = exception_hook 
+
     def submitScores(self):
         if not self.submitButtonHit and not self.question1Hit and not self.question2Hit:
 
+            global scoresList
+            
             self.submitButtonHit = True
 
             scoreCPU = self.plainTextEdit.toPlainText()
@@ -97,12 +124,17 @@ class MainPage(QDialog):
 
             self.question1Hit = True
             choice1 = self.comboBox.currentText()
+            global upgradeComputer
+            
             if choice1 == "Web browsing / Office":
                 self.use = 1
+                upgradeComputer = 1
             elif choice1 == "Video Games":
                 self.use = 2
+                upgradeComputer = 2
             elif choice1 == "Workstation":
                 self.use = 3
+                upgradeComputer = 3
 
             # change text of verdict box
 
@@ -146,6 +178,7 @@ class MainPage(QDialog):
                     self.comboBox_2.addItem(option)
 
     def submitQuestion2(self):
+        global choice2
 
         if self.submitButtonHit and self.question1Hit and not self.question2Hit:
 
@@ -157,7 +190,7 @@ class MainPage(QDialog):
 
             if self.use == 3 and choice2 != "No clue":
                 self.use = 4
-
+    
             if self.performance >= self.use:
                 self.textEdit_11.setHtml("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
                 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -172,11 +205,15 @@ class MainPage(QDialog):
                 "p, li { white-space: pre-wrap; }\n"
                 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:7.8pt; font-weight:400; font-style:normal;\">\n"
                 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">Final Verdict: Your computer should be upgraded to more adequately fufill the tasks required of it.</span></p></body></html>")
+                self.openWindow()
+                
+                
 
-            # this is where it would call the other parts of the program
+def main():
+    app = QApplication(sys.argv)
+    widget = MainPage()
+    widget.show()
+    sys.exit(app.exec_())
 
-
-app = QApplication(sys.argv)
-widget = MainPage()
-widget.show()
-sys.exit(app.exec_())
+if __name__ == '__main__':
+    main()
