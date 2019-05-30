@@ -8,6 +8,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from scipy import stats
+from pull_parts import PullParts
 
 class Ui_MainWindow(object):
     upgradeComputer = 0
@@ -124,6 +125,12 @@ class Ui_MainWindow(object):
         global upgradeComputer
         global choice2
         global scoresList
+
+        pp = PullParts()
+            
+        self.lineEdit_4.setText(str(pp.getCPUname()))
+        self.lineEdit_5.setText(str(pp.getGPUname()))
+        self.lineEdit_6.setText(str(pp.getRAMinfo()))
 
         if upgradeComputer == 2 and choice2 == '30 fps':
             Tfps = [('Intel Core i5-560M',2578),('GTX 1050',4701),('Corsair CMZ8GX3M2A1600C9 4GB',0)]
