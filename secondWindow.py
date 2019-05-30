@@ -14,16 +14,16 @@ class Ui_MainWindow(object):
     upgradeComputer = 0
     choice2 = ''
     scoresList = []
-    
+
     def setupUi(self, MainWindow,UC,c2,sL):
         global upgradeComputer
         global choice2
         global scoresList
-        
+
         upgradeComputer = UC
         choice2 = c2
         scoresList = sL
-        
+
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 600)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
@@ -127,10 +127,10 @@ class Ui_MainWindow(object):
         global scoresList
 
         pp = PullParts()
-            
-        self.lineEdit_4.setText(str(pp.getCPUname()))
-        self.lineEdit_5.setText(str(pp.getGPUname()))
-        self.lineEdit_6.setText(str(pp.getRAMinfo()))
+
+        self.lineEdit_5.setText("Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz")
+        self.lineEdit_6.setText("NVIDIA GeForce MX130")
+        self.lineEdit_4.setText("Lenovo 2400Mhz SODIMM")
 
         if upgradeComputer == 2 and choice2 == '30 fps':
             Tfps = [('Intel Core i5-560M',2578),('GTX 1050',4701),('Corsair CMZ8GX3M2A1600C9 4GB',0)]
@@ -158,7 +158,7 @@ class Ui_MainWindow(object):
         else:
             VM = [('Intel Xeon Platinum 8168',8312),('TITAN V CEO Edition in SLI',33846),('TEAMGROUP-UD4-4133 8GB X 16',0)]
             self.doMath(VM)
-        
+
     def doMath(self,val):
         self.lineEdit.setText(val[0][0])
         self.lineEdit_2.setText(val[1][0])
@@ -169,9 +169,9 @@ class Ui_MainWindow(object):
         self.lineEdit_9.setText('n/a')
 
         whm = stats.hmean([val[0][1] * 0.396566187, scoresList[1] * 3.178718116, val[1][1] * 2.525195879, scoresList[3] * 1.757085479, scoresList[4] * 1.668158805])
-                
+
         self.lineEdit_10.setText(str(int(abs(whm - scoresList[5]) / scoresList[5] * 100.0)) + '%')
-    
+
 
 if __name__ == "__main__":
     import sys
@@ -181,4 +181,3 @@ if __name__ == "__main__":
     ui.setupUi(MainWindow,2,'144 fps',[13684,12251,2567,9023,7777,5799])
     MainWindow.show()
     sys.exit(app.exec_())
-
